@@ -1,0 +1,1392 @@
+fileFormatVersion: 2
+guid: be6309fd2406b054f94b03e1e76443ab
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8035130292007255446
+    second: Dyana_0
+  - first:
+      213: -5996536017547087863
+    second: Dyana_1
+  - first:
+      213: -7854945068404128330
+    second: Dyana_2
+  - first:
+      213: 626653062188743018
+    second: Dyana_3
+  - first:
+      213: 7714259924705899522
+    second: Dyana_6
+  - first:
+      213: -306543944675960636
+    second: Dyana_8
+  - first:
+      213: -6291883039760250071
+    second: Dyana_9
+  - first:
+      213: -704408081625085343
+    second: Dyana_10
+  - first:
+      213: -3706597708377355991
+    second: Dyana_11
+  - first:
+      213: 1188758128143888700
+    second: Dyana_12
+  - first:
+      213: 981691749732762543
+    second: Dyana_13
+  - first:
+      213: 1189784471762685070
+    second: Dyana_14
+  - first:
+      213: -8790611254879588148
+    second: Dyana_15
+  - first:
+      213: -1066112933329294880
+    second: Dyana_18
+  - first:
+      213: -3681730111684032832
+    second: Dyana_23
+  - first:
+      213: 5882739265923876508
+    second: Dyana_24
+  - first:
+      213: 1016450508035367043
+    second: Dyana_25
+  - first:
+      213: -8631883083480778627
+    second: Dyana_26
+  - first:
+      213: 6591426167519919419
+    second: Dyana_30
+  - first:
+      213: 7523958883420214015
+    second: Dyana_31
+  - first:
+      213: -5734280269062608407
+    second: Dyana_36
+  - first:
+      213: 1590159468853350665
+    second: Dyana_37
+  - first:
+      213: 6498046270568720989
+    second: Dyana_38
+  - first:
+      213: 7174244940556433448
+    second: Dyana_39
+  - first:
+      213: -8048909080043696931
+    second: Dyana_42
+  - first:
+      213: -1239951374777861918
+    second: Dyana_43
+  - first:
+      213: -798872858840101274
+    second: Dyana_44
+  - first:
+      213: 2427253396646523258
+    second: Dyana_45
+  - first:
+      213: 8716076805421589313
+    second: Dyana_51
+  - first:
+      213: 1122048066755311903
+    second: Dyana_52
+  - first:
+      213: 8177676101161456386
+    second: Dyana_53
+  - first:
+      213: 2911165781460069045
+    second: Dyana_54
+  - first:
+      213: 7745611327769430538
+    second: Dyana_55
+  - first:
+      213: 6421514462869197528
+    second: Dyana_56
+  - first:
+      213: -3939735574924823843
+    second: Dyana_57
+  - first:
+      213: 2293223764601739706
+    second: Dyana_58
+  - first:
+      213: -2169938649680796559
+    second: Dyana_62
+  - first:
+      213: 1066650029027809706
+    second: Dyana_63
+  - first:
+      213: 9050554513489660049
+    second: Dyana_64
+  - first:
+      213: -3883868064684214055
+    second: Dyana_65
+  - first:
+      213: 6905625372814689809
+    second: Dyana_66
+  - first:
+      213: 6370173172375293129
+    second: Dyana_67
+  - first:
+      213: -1562149791685027446
+    second: Dyana_68
+  - first:
+      213: 3126524493365872554
+    second: Dyana_69
+  - first:
+      213: -2309253501092188325
+    second: Dyana_70
+  - first:
+      213: -8875598680957950677
+    second: Dyana_72
+  - first:
+      213: 6017127477321275179
+    second: Dyana_73
+  - first:
+      213: -5657346374355344368
+    second: Dyana_74
+  - first:
+      213: 4104478322022030017
+    second: Dyana_75
+  - first:
+      213: 4963360832278197477
+    second: Dyana_76
+  - first:
+      213: 4253618178994175553
+    second: Dyana_77
+  - first:
+      213: -8686290002091423212
+    second: Dyana_4
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dyana_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 335
+        width: 22
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69db21bbd64828f60800000000000000
+      internalID: 8035130292007255446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyana_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 335
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9003547534608cca0800000000000000
+      internalID: -5996536017547087863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyana_2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 335
+        width: 22
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5c09bd311adf290800000000000000
+      internalID: -7854945068404128330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyana_3
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 335
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a69bb21d3a152b800800000000000000
+      internalID: 626653062188743018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyana_6
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 343
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2047025978e8e0b60800000000000000
+      internalID: 7714259924705899522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyana_8
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 327
+        width: 23
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c8da8d08efeebbf0800000000000000
+      internalID: -306543944675960636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyana_9
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 327
+        width: 23
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92b09ce06bdbea8a0800000000000000
+      internalID: -6291883039760250071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyana_10
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 348
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a82d5f4907936f0800000000000000
+      internalID: -704408081625085343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyana_11
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 262
+        width: 124
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92904eac5058f8cc0800000000000000
+      internalID: -3706597708377355991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyana_12
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 281
+        width: 22
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c31ffdf18315f7010800000000000000
+      internalID: 1188758128143888700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyana_13
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 281
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa3c0c5f17baf9d00800000000000000
+      internalID: 981691749732762543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyana_14
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 281
+        width: 22
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8cc0be5ca6f28010800000000000000
+      internalID: 1189784471762685070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyana_15
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 281
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc0f95a63a9710680800000000000000
+      internalID: -8790611254879588148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyana_18
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 314
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e925768fe76431f0800000000000000
+      internalID: -1066112933329294880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyana_23
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 220
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6c63658fdd7ecc0800000000000000
+      internalID: -3681730111684032832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyana_24
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 220
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9682abb130b3a150800000000000000
+      internalID: 5882739265923876508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyana_25
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 220
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 380a6370a582b1e00800000000000000
+      internalID: 1016450508035367043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyana_26
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 220
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d78bc6ab114653880800000000000000
+      internalID: -8631883083480778627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyana_30
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 222
+        width: 23
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d3d3e2d23797b50800000000000000
+      internalID: 6591426167519919419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyana_31
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 223
+        width: 23
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff218e6adb87a6860800000000000000
+      internalID: 7523958883420214015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyana_36
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 161
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e9edff0a7ebb60b0800000000000000
+      internalID: -5734280269062608407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyana_37
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 161
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9015a35ac91611610800000000000000
+      internalID: 1590159468853350665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyana_38
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 161
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5aec4ba7a2bd2a50800000000000000
+      internalID: 6498046270568720989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyana_39
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 161
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 828728d33c9009360800000000000000
+      internalID: 7174244940556433448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyana_42
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 177
+        width: 25
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc449e26d78c4090800000000000000
+      internalID: -8048909080043696931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyana_43
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 177
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e8bb9f4bcecacee0800000000000000
+      internalID: -1239951374777861918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyana_44
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 177
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e82241e55d9e4f0800000000000000
+      internalID: -798872858840101274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyana_45
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 169
+        width: 43
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71f9f6aa165fa120800000000000000
+      internalID: 2427253396646523258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyana_51
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 137
+        width: 43
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143ec2ebca9b5f870800000000000000
+      internalID: 8716076805421589313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyana_52
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 111
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f193dd795c0529f00800000000000000
+      internalID: 1122048066755311903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyana_53
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 111
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2031ee93611fc7170800000000000000
+      internalID: 8177676101161456386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyana_54
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 111
+        width: 25
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba233eaad9866820800000000000000
+      internalID: 2911165781460069045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyana_55
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 89
+        width: 24
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a40ffe670fd7b60800000000000000
+      internalID: 7745611327769430538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyana_56
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 89
+        width: 24
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d21a5f916dcd1950800000000000000
+      internalID: 6421514462869197528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyana_57
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 87
+        width: 26
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd2f2a34e5f3359c0800000000000000
+      internalID: -3939735574924823843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyana_58
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 86
+        width: 26
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab912972dda23df10800000000000000
+      internalID: 2293223764601739706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyana_62
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 55
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 174a2618b44d2e1e0800000000000000
+      internalID: -2169938649680796559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyana_63
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 55
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa9dcdfcc808dce00800000000000000
+      internalID: 1066650029027809706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyana_64
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 62
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1980cdcc0670a9d70800000000000000
+      internalID: 9050554513489660049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyana_65
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 62
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d87302a29ab91ac0800000000000000
+      internalID: -3883868064684214055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyana_66
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 62
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1164b8260b5b5df50800000000000000
+      internalID: 6905625372814689809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyana_67
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 75
+        width: 21
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cc0729efb6676850800000000000000
+      internalID: 6370173172375293129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyana_68
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 21
+        width: 23
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a89d9a48a01225ae0800000000000000
+      internalID: -1562149791685027446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyana_69
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 21
+        width: 23
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa781a03675a36b20800000000000000
+      internalID: 3126524493365872554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyana_70
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 20
+        width: 25
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5fa21bfc22e3ffd0800000000000000
+      internalID: -2309253501092188325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyana_72
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 15
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b25639c460a83d480800000000000000
+      internalID: -8875598680957950677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyana_73
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 24
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b271afd7f81218350800000000000000
+      internalID: 6017127477321275179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyana_74
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 2
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 014a43942711d71b0800000000000000
+      internalID: -5657346374355344368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyana_75
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 2
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ca1a64994906f830800000000000000
+      internalID: 4104478322022030017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyana_76
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 2
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e47704416661e440800000000000000
+      internalID: 4963360832278197477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyana_77
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 29
+        width: 21
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e77197233e70b30800000000000000
+      internalID: 4253618178994175553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyana_4
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41a4059d349147780800000000000000
+      internalID: -8686290002091423212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

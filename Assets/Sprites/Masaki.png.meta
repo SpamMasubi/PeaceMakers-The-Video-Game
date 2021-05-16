@@ -1,0 +1,1374 @@
+fileFormatVersion: 2
+guid: bf57b70babc2f944c9558822baa33ac1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2354741067169588633
+    second: Masaki_0
+  - first:
+      213: 5745332404721606409
+    second: Masaki_1
+  - first:
+      213: 9008699583813328601
+    second: Masaki_2
+  - first:
+      213: 5968659021742839617
+    second: Masaki_3
+  - first:
+      213: -6629787243578879378
+    second: Masaki_8
+  - first:
+      213: 8889596133895866842
+    second: Masaki_9
+  - first:
+      213: -663681432673045701
+    second: Masaki_10
+  - first:
+      213: -9174487873873450023
+    second: Masaki_11
+  - first:
+      213: -512045602261531041
+    second: Masaki_12
+  - first:
+      213: 2186152114718526454
+    second: Masaki_13
+  - first:
+      213: 6513571715345355803
+    second: Masaki_14
+  - first:
+      213: -2670877020486734945
+    second: Masaki_15
+  - first:
+      213: -8279343639662295341
+    second: Masaki_16
+  - first:
+      213: -5579977022488205670
+    second: Masaki_17
+  - first:
+      213: -33294458674497683
+    second: Masaki_18
+  - first:
+      213: -8894012575104806560
+    second: Masaki_19
+  - first:
+      213: -4933294356861768237
+    second: Masaki_20
+  - first:
+      213: 1525907890978080383
+    second: Masaki_24
+  - first:
+      213: -160153914386446054
+    second: Masaki_25
+  - first:
+      213: 1670871110452890988
+    second: Masaki_31
+  - first:
+      213: 6038441541211515402
+    second: Masaki_32
+  - first:
+      213: 5310768304694474084
+    second: Masaki_33
+  - first:
+      213: -6965408764243304379
+    second: Masaki_34
+  - first:
+      213: -7105736578473433550
+    second: Masaki_35
+  - first:
+      213: 2899902235905058086
+    second: Masaki_36
+  - first:
+      213: 2122028223970531212
+    second: Masaki_55
+  - first:
+      213: 2175933473848263143
+    second: Masaki_56
+  - first:
+      213: 2248004006123089119
+    second: Masaki_57
+  - first:
+      213: 1029286841622306362
+    second: Masaki_58
+  - first:
+      213: -1221188533015710691
+    second: Masaki_59
+  - first:
+      213: 4716617346194678343
+    second: Masaki_60
+  - first:
+      213: -4414115729210470868
+    second: Masaki_61
+  - first:
+      213: 7427091139937969750
+    second: Masaki_62
+  - first:
+      213: -298244847487648575
+    second: Masaki_63
+  - first:
+      213: 7346865667182752934
+    second: Masaki_64
+  - first:
+      213: 2185635388185107551
+    second: Masaki_65
+  - first:
+      213: 291243691102924400
+    second: Masaki_66
+  - first:
+      213: 7188038057144915899
+    second: Masaki_67
+  - first:
+      213: 6286496330625226598
+    second: Masaki_68
+  - first:
+      213: 1094492082176929206
+    second: Masaki_69
+  - first:
+      213: -7591346929468016457
+    second: Masaki_70
+  - first:
+      213: -799769229817510382
+    second: Masaki_71
+  - first:
+      213: 2783552059714872114
+    second: Masaki_78
+  - first:
+      213: -4563359707616245011
+    second: Masaki_79
+  - first:
+      213: -268148403960878794
+    second: Masaki_80
+  - first:
+      213: -3464893796084915496
+    second: Masaki_81
+  - first:
+      213: -641822558802247884
+    second: Masaki_82
+  - first:
+      213: 2286744083274693154
+    second: Masaki_83
+  - first:
+      213: -8806126593874030558
+    second: Masaki_84
+  - first:
+      213: 494710697270701968
+    second: Masaki_85
+  - first:
+      213: 8577313057360231617
+    second: Masaki_86
+  - first:
+      213: -6223721173395071947
+    second: Masaki_87
+  - first:
+      213: 1161128367815014656
+    second: Masaki_4
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Masaki_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 462
+        width: 17
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a1551b977425fd0800000000000000
+      internalID: -2354741067169588633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masaki_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 462
+        width: 21
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90fd8fbc1658bbf40800000000000000
+      internalID: 5745332404721606409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masaki_2
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 462
+        width: 17
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de17659a84550d70800000000000000
+      internalID: 9008699583813328601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masaki_3
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 462
+        width: 21
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1479968c1cfe4d250800000000000000
+      internalID: 5968659021742839617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masaki_8
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 467
+        width: 19
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e62901ac0a34ef3a0800000000000000
+      internalID: -6629787243578879378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masaki_9
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 468
+        width: 19
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad98c8da5903e5b70800000000000000
+      internalID: 8889596133895866842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masaki_10
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 401
+        width: 124
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b333089d0412ac6f0800000000000000
+      internalID: -663681432673045701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masaki_11
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 406
+        width: 17
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dbe4a123ebada080800000000000000
+      internalID: -9174487873873450023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masaki_12
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 408
+        width: 21
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f568668dc39d4e8f0800000000000000
+      internalID: -512045602261531041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masaki_13
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 406
+        width: 17
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb44cef3c5c65e10800000000000000
+      internalID: 2186152114718526454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masaki_14
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 408
+        width: 21
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b141138f6fad46a50800000000000000
+      internalID: 6513571715345355803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masaki_17
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 353
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a96afb74670ff82b0800000000000000
+      internalID: -5579977022488205670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masaki_18
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 353
+        width: 17
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d67b7b1cdd6b98ff0800000000000000
+      internalID: -33294458674497683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masaki_19
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 353
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06155097fae129480800000000000000
+      internalID: -8894012575104806560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masaki_20
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 353
+        width: 17
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dda0de8bea698bb0800000000000000
+      internalID: -4933294356861768237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masaki_24
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 356
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f76c6b9642d1d2510800000000000000
+      internalID: 1525907890978080383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masaki_25
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 356
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a198b970dd407cdf0800000000000000
+      internalID: -160153914386446054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masaki_31
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 298
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6dc10c1c60203710800000000000000
+      internalID: 1670871110452890988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masaki_32
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 298
+        width: 17
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0aefd4b69adcc350800000000000000
+      internalID: 6038441541211515402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masaki_33
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 298
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 465b7bda2a3a3b940800000000000000
+      internalID: 5310768304694474084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masaki_34
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 298
+        width: 17
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 540a2eb12a5e55f90800000000000000
+      internalID: -6965408764243304379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masaki_35
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 293
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 236679cca3a536d90800000000000000
+      internalID: -7105736578473433550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masaki_36
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 292
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6256b7e18b58e3820800000000000000
+      internalID: 2899902235905058086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masaki_55
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 182
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87dd1d3d65f27d10800000000000000
+      internalID: 2122028223970531212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masaki_56
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 182
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e18b9347f7723e10800000000000000
+      internalID: 2175933473848263143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masaki_57
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 186
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc2f9eabb3823f10800000000000000
+      internalID: 2248004006123089119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masaki_58
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 185
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e91e6dde2c84e00800000000000000
+      internalID: 1029286841622306362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masaki_59
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 184
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1471d5df777d0fe0800000000000000
+      internalID: -1221188533015710691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masaki_60
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 184
+        width: 23
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74221659c7ac47140800000000000000
+      internalID: 4716617346194678343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masaki_61
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 187
+        width: 21
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e02fa9129edb2c0800000000000000
+      internalID: -4414115729210470868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masaki_62
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 127
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65624769a04521760800000000000000
+      internalID: 7427091139937969750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masaki_63
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 127
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc786134eb6cdbf0800000000000000
+      internalID: -298244847487648575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masaki_64
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 127
+        width: 23
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a4f0f0266f45f560800000000000000
+      internalID: 7346865667182752934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masaki_65
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 127
+        width: 23
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5cdb493ecfe45e10800000000000000
+      internalID: 2185635388185107551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masaki_66
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 127
+        width: 23
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e634f0894ba0400800000000000000
+      internalID: 291243691102924400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masaki_67
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 127
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb79c14778a01c360800000000000000
+      internalID: 7188038057144915899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masaki_68
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 125
+        width: 21
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66796bcfa1f1e3750800000000000000
+      internalID: 6286496330625226598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masaki_69
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 76
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd22a7ffba603f00800000000000000
+      internalID: 1094492082176929206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masaki_70
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 69
+        width: 20
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b87e46303e16a690800000000000000
+      internalID: -7591346929468016457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masaki_71
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 70
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21680727f16a6e4f0800000000000000
+      internalID: -799769229817510382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masaki_78
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 68
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 233ac15b9d921a620800000000000000
+      internalID: 2783552059714872114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masaki_79
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 23
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea043d0680bba0c0800000000000000
+      internalID: -4563359707616245011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masaki_80
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 11
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 639e2d28278574cf0800000000000000
+      internalID: -268148403960878794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masaki_81
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 11
+        width: 20
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d267e343793aefc0800000000000000
+      internalID: -3464893796084915496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masaki_82
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 24
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f72c588c9c717f0800000000000000
+      internalID: -641822558802247884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masaki_83
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 23
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a70d7c0a52cbf10800000000000000
+      internalID: 2286744083274693154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masaki_84
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 51
+        width: 48
+        height: 17
+      alignment: 9
+      pivot: {x: 0.5, y: 1.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220940d058a5ac580800000000000000
+      internalID: -8806126593874030558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masaki_85
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 11
+        width: 21
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09fe76112c09dd600800000000000000
+      internalID: 494710697270701968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masaki_86
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 11
+        width: 21
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ccb647f7ccb80770800000000000000
+      internalID: 8577313057360231617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masaki_87
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 23
+        width: 48
+        height: 17
+      alignment: 9
+      pivot: {x: 0.5, y: 1.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c95b64196e0a9a0800000000000000
+      internalID: -6223721173395071947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masaki_4
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 298
+        width: 23
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0093e3e39182d1010800000000000000
+      internalID: 1161128367815014656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
