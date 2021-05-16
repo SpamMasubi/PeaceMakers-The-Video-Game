@@ -25,6 +25,7 @@ public class Player : MonoBehaviour
     private Animator anim;
     private Transform groundCheck;
     private bool onGround;
+    private bool running;
     public static bool isDead = false;
     private bool facingRight = true;
     private bool jump = false;
@@ -96,7 +97,21 @@ public class Player : MonoBehaviour
                 y = 0;
             }
 
-            rb.velocity = new Vector3(h * currentSpeed, rb.velocity.y, y * currentSpeed);
+            if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
+            {
+                running = true;
+            }
+
+            if (running) {
+                rb.velocity = new Vector3(h * (currentSpeed * 1.5f), rb.velocity.y, y * (currentSpeed * 1.5f));
+                anim.SetBool("Run", running);
+                running = false;
+            }
+            else
+            {
+                rb.velocity = new Vector3(h * currentSpeed, rb.velocity.y, y * currentSpeed);
+                anim.SetBool("Run", running);
+            }
 
             if (onGround)
             {
