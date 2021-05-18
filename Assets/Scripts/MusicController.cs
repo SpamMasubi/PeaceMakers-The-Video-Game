@@ -17,7 +17,17 @@ public class MusicController : MonoBehaviour
 
     }
 
-
+    private void Update()
+    {
+        if(PauseMenu.GameIsPaused)
+        {
+            audioS.Pause();
+        }
+        else
+        {
+            audioS.UnPause();
+        }
+    }
 
     public void PlaySong(AudioClip clip)
     {
