@@ -13,6 +13,7 @@ public class EnemySpawn : MonoBehaviour
     public string nextStageLoad;
 
     private int currentEnemies;
+    public static int playerCurrentHealth;
 
     // Start is called before the first frame update
     void Start()
@@ -30,6 +31,7 @@ public class EnemySpawn : MonoBehaviour
             {
                 if (isNextStage)
                 {
+                    //playerCurrentHealth = Player.currentHealth;
                     Invoke("LoadScene", 0.5f);
                 }
                 else

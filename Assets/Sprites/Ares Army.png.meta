@@ -1,0 +1,1248 @@
+fileFormatVersion: 2
+guid: 5491f42c5a8300b48a61ec5b08e70fcd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6705922983893634840
+    second: Ares Army_0
+  - first:
+      213: -3322531483599718191
+    second: Ares Army_1
+  - first:
+      213: -6779639602659296434
+    second: Ares Army_2
+  - first:
+      213: -4292873621323055848
+    second: Ares Army_3
+  - first:
+      213: 8452814652981992376
+    second: Ares Army_7
+  - first:
+      213: 963022307120066906
+    second: Ares Army_8
+  - first:
+      213: -2011043374075819239
+    second: Ares Army_9
+  - first:
+      213: 3998273550305193362
+    second: Ares Army_10
+  - first:
+      213: -1133080709133854393
+    second: Ares Army_11
+  - first:
+      213: -4274460786948469563
+    second: Ares Army_12
+  - first:
+      213: 6329253038391917767
+    second: Ares Army_13
+  - first:
+      213: 5838140376747251925
+    second: Ares Army_14
+  - first:
+      213: -7261350511493799825
+    second: Ares Army_15
+  - first:
+      213: -178417945019560537
+    second: Ares Army_16
+  - first:
+      213: 2179575309896441273
+    second: Ares Army_17
+  - first:
+      213: 1309524004755927826
+    second: Ares Army_18
+  - first:
+      213: -7818656237451781901
+    second: Ares Army_19
+  - first:
+      213: 9164661281164757410
+    second: Ares Army_20
+  - first:
+      213: 5105551226284366230
+    second: Ares Army_26
+  - first:
+      213: -9155840209113378502
+    second: Ares Army_27
+  - first:
+      213: -5017700945528996441
+    second: Ares Army_28
+  - first:
+      213: -5961864967394734242
+    second: Ares Army_29
+  - first:
+      213: -1068079524435107319
+    second: Ares Army_30
+  - first:
+      213: -3260521496399023871
+    second: Ares Army_31
+  - first:
+      213: 3006829828714906229
+    second: Ares Army_32
+  - first:
+      213: -1307852560161731540
+    second: Ares Army_33
+  - first:
+      213: 6534730323532588375
+    second: Ares Army_34
+  - first:
+      213: -466714979603568991
+    second: Ares Army_35
+  - first:
+      213: 2139310996861791639
+    second: Ares Army_42
+  - first:
+      213: -6101760998844584669
+    second: Ares Army_43
+  - first:
+      213: -5878830112524138408
+    second: Ares Army_44
+  - first:
+      213: -3035106050085809597
+    second: Ares Army_45
+  - first:
+      213: -148262792433415812
+    second: Ares Army_46
+  - first:
+      213: 6899766441394208578
+    second: Ares Army_47
+  - first:
+      213: -6373711320725588212
+    second: Ares Army_48
+  - first:
+      213: -8060849396379972749
+    second: Ares Army_49
+  - first:
+      213: -7089547507348864845
+    second: Ares Army_50
+  - first:
+      213: -4469938014662272670
+    second: Ares Army_51
+  - first:
+      213: 2821457816097880964
+    second: Ares Army_52
+  - first:
+      213: 91014235807809017
+    second: Ares Army_53
+  - first:
+      213: 8365005986916104708
+    second: Ares Army_54
+  - first:
+      213: -5511998209410624763
+    second: Ares Army_55
+  - first:
+      213: -1025232033649706796
+    second: Ares Army_4
+  - first:
+      213: -7089197660840586444
+    second: Ares Army_5
+  - first:
+      213: 2861209852240887225
+    second: Ares Army_6
+  - first:
+      213: -6986000792693515390
+    second: Ares Army_21
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ares Army_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 394
+        width: 15
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f8b12ac69301d50800000000000000
+      internalID: 6705922983893634840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ares Army_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 394
+        width: 21
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d8bcfc183ff3e1d0800000000000000
+      internalID: -3322531483599718191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ares Army_2
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 394
+        width: 15
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b725293b1e9e1a0800000000000000
+      internalID: -6779639602659296434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ares Army_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 394
+        width: 21
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81df46f9f26ac64c0800000000000000
+      internalID: -4292873621323055848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ares Army_7
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 321
+        width: 124
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb5537542e6e4570800000000000000
+      internalID: 8452814652981992376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ares Army_8
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 328
+        width: 17
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a513bae9fa75d5d00800000000000000
+      internalID: 963022307120066906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ares Army_9
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 328
+        width: 17
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91bce4cc4b65714e0800000000000000
+      internalID: -2011043374075819239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ares Army_10
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 368
+        width: 20
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29de7c83c98bc7730800000000000000
+      internalID: 3998273550305193362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ares Army_11
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 367
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7499a3e291d7640f0800000000000000
+      internalID: -1133080709133854393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ares Army_12
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 365
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc8993bf801ea4c0800000000000000
+      internalID: -4274460786948469563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ares Army_13
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 328
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc79e6ca1606d750800000000000000
+      internalID: 6329253038391917767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ares Army_14
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 328
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d892e8adbd350150800000000000000
+      internalID: 5838140376747251925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ares Army_15
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 312
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f60afcc9e208a3b90800000000000000
+      internalID: -7261350511493799825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ares Army_16
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 309
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7adcd8503d1268df0800000000000000
+      internalID: -178417945019560537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ares Army_17
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 261
+        width: 18
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bdd69b42386f3e10800000000000000
+      internalID: 2179575309896441273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ares Army_18
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 261
+        width: 21
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 213f258e42d5c2210800000000000000
+      internalID: 1309524004755927826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ares Army_19
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 261
+        width: 18
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f85bc9b39d8e7390800000000000000
+      internalID: -7818656237451781901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ares Army_20
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 261
+        width: 21
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a90a96f0ea6f2f70800000000000000
+      internalID: 9164661281164757410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ares Army_26
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 228
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6995d393acf8ad640800000000000000
+      internalID: 5105551226284366230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ares Army_27
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 227
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a311f8be6dbefe080800000000000000
+      internalID: -9155840209113378502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ares Army_28
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 244
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad3a90339b8d5ab0800000000000000
+      internalID: -5017700945528996441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ares Army_29
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 195
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f47934663334da0800000000000000
+      internalID: -5961864967394734242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ares Army_30
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 195
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9026d2ad45b6d21f0800000000000000
+      internalID: -1068079524435107319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ares Army_31
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 195
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1017c9859fc40c2d0800000000000000
+      internalID: -3260521496399023871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ares Army_32
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 195
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 572c9906cc76ab920800000000000000
+      internalID: 3006829828714906229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ares Army_33
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 177
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c89fc960399dde0800000000000000
+      internalID: -1307852560161731540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ares Army_34
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 176
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75522255b9600ba50800000000000000
+      internalID: 6534730323532588375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ares Army_35
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 180
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a62065e235e589f0800000000000000
+      internalID: -466714979603568991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ares Army_42
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 102
+        width: 17
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79da800640c50bd10800000000000000
+      internalID: 2139310996861791639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ares Army_43
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 102
+        width: 21
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d298733b0325ba0800000000000000
+      internalID: -6101760998844584669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ares Army_44
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 102
+        width: 17
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8580128f8233a6ea0800000000000000
+      internalID: -5878830112524138408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ares Army_45
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 102
+        width: 22
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3421ffcc02321e5d0800000000000000
+      internalID: -3035106050085809597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ares Army_46
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 92
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79499b96c341fdf0800000000000000
+      internalID: -148262792433415812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ares Army_47
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 88
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f767c9505e0cf50800000000000000
+      internalID: 6899766441394208578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ares Army_48
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 107
+        width: 18
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c07f34bb2570c87a0800000000000000
+      internalID: -6373711320725588212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ares Army_49
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 100
+        width: 44
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37b89d4ae2c122090800000000000000
+      internalID: -8060849396379972749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ares Army_50
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 36
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b00736aa1edc9d90800000000000000
+      internalID: -7089547507348864845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ares Army_51
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 36
+        width: 18
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2695a04fe0797f1c0800000000000000
+      internalID: -4469938014662272670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ares Army_52
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 36
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b734d5fe4d72720800000000000000
+      internalID: 2821457816097880964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ares Army_53
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 36
+        width: 18
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fdf3da17f8534100800000000000000
+      internalID: 91014235807809017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ares Army_54
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 26
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a762a10a8761470800000000000000
+      internalID: 8365005986916104708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ares Army_55
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 34
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5039d7515d27183b0800000000000000
+      internalID: -5511998209410624763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ares Army_4
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 270
+        width: 8
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d835f5b5e4a5c1f0800000000000000
+      internalID: -1025232033649706796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ares Army_5
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 313
+        width: 43
+        height: 15
+      alignment: 9
+      pivot: {x: 0.5, y: 1.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4331113a94c1e9d90800000000000000
+      internalID: -7089197660840586444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ares Army_6
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 220
+        width: 42
+        height: 18
+      alignment: 9
+      pivot: {x: 0.5, y: 1.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd7aa6833f05b720800000000000000
+      internalID: 2861209852240887225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ares Army_21
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 44
+        width: 44
+        height: 17
+      alignment: 9
+      pivot: {x: 0.5, y: 1.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28bd7eeda4dbc0f90800000000000000
+      internalID: -6986000792693515390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

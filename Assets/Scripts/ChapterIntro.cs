@@ -21,6 +21,7 @@ public class ChapterIntro : MonoBehaviour
     void Start()
     {
         canStart = false;
+        Player.notMaxHealth = false;
     }
 
     // Update is called once per frame
@@ -30,14 +31,13 @@ public class ChapterIntro : MonoBehaviour
         {
             levelToLoad = "Stage 1";
             chapterTitle.text = "Chapter 1";
-            chapterName.text = "マスビクラン\n" + "The Masubi Clan";
+            chapterName.text = "ザクギャング\n" + "Zaku Gang";
             StartCoroutine(activeStart());
             if (Input.GetKeyDown("space") && canStart)
             {
                 Invoke("LoadScene", 1f);
                 startMessage.SetActive(false);
                 Menu.startFirstLevel = false;
-                canStart = false;
             }
         }
         else if (Boss.startLevel2)
@@ -51,8 +51,21 @@ public class ChapterIntro : MonoBehaviour
                 Invoke("LoadScene", 1f);
                 startMessage.SetActive(false);
                 Boss.startLevel2 = false;
-                canStart = false;
             }
+        }
+        else if (Stage2Boss.startLevel3)
+        {
+            levelToLoad = "Stage 3-1";
+            chapterTitle.text = "Chapter 3";
+            chapterName.text = "アレス軍\n" + "Ares Army";
+            StartCoroutine(activeStart());
+            if (Input.GetKeyDown("space") && canStart)
+            {
+                Invoke("LoadScene", 1f);
+                startMessage.SetActive(false);
+                Stage2Boss.startLevel3 = false;
+            }
+
         }
     }
 

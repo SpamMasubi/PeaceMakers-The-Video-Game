@@ -250,8 +250,10 @@ MonoBehaviour:
   enemyComboed: {fileID: 8300000, guid: 55c16f6672c165a4bbaf2112a8f28f24, type: 3}
   enemyAttack: {fileID: 8300000, guid: 39ccf76a3e82bcd4eadd08eb46bf34dd, type: 3}
   deathSound: {fileID: 8300000, guid: 85568fc316f8be043b6fc8392028a77a, type: 3}
+  enemyProjectile: {fileID: 0}
+  launchPoint: {fileID: 0}
   specialAttackObj: {fileID: 7680096835198375783, guid: 2fcab69a48241224dbfdbac5312c53e8, type: 3}
-  minSpecialTime: 4
+  minSpecialTime: 6
   maxSpecialTime: 8
   bossStart: {fileID: 8300000, guid: 1ddffb9fc321cbf40b6705d7fc7b3ffe, type: 3}
   specialAttackSound: {fileID: 8300000, guid: 3364846a5a7b1244a87dccabdbc56bb3, type: 3}

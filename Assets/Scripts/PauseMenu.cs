@@ -60,6 +60,8 @@ public class PauseMenu : MonoBehaviour
     public void LoadMainMenu()
     {
         PlaySong(buttonClick);
+        Destroy(FindObjectOfType<GameManager>().gameObject);
+        Destroy(FindObjectOfType<UIManager>().gameObject);
         GameIsPaused = false;
         Time.timeScale = 1f;
         SceneManager.LoadScene(1);

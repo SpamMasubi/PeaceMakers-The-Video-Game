@@ -60,6 +60,7 @@
     <Compile Include="Assets\Scripts\ResetCameraScript.cs" />
     <Compile Include="Assets\Scripts\SpecialAttack.cs" />
     <Compile Include="Assets\Scripts\SpecialWeapon.cs" />
+    <Compile Include="Assets\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\Menu.cs" />
     <Compile Include="Assets\Scripts\MusicController.cs" />
@@ -79,7 +80,7 @@
     <Compile Include="Assets\Scripts\BreakableObject.cs" />
     <Compile Include="Assets\Scripts\Projectiles.cs" />
     <Compile Include="Assets\Scripts\UIManager.cs" />
-    <Compile Include="Assets\Scripts\PauseMenu.cs" />
+    <Compile Include="Assets\Scripts\Stage3Boss.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

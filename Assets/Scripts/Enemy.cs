@@ -12,9 +12,12 @@ public class Enemy : MonoBehaviour
     public string enemyName;
     public Sprite enemyImage;
     public AudioClip collisionSound, enemyComboed, enemyAttack, deathSound;
+    [Header("For Enemy with Weapons with projectiles")]
+    public GameObject enemyProjectile;
+    public Transform launchPoint;
 
-    protected bool comboDamaged = false;
-    private int comboCount = 0;
+    private bool comboDamaged = false;
+    protected int comboCount = 0;
     private int currentHealth;
     private float currentSpeed;
     private Rigidbody rb;
@@ -26,7 +29,7 @@ public class Enemy : MonoBehaviour
     protected bool isDead = false;
     private float zForce;
     private float walkTimer;
-    protected bool damaged = false;
+    private bool damaged = false;
     private float damageTimer;
     private float nextAttack;
     private AudioSource audioS;
@@ -95,13 +98,13 @@ public class Enemy : MonoBehaviour
                 hForce = 0;
             }
 
-            if (!damaged)
+            if (!damaged && comboCount == 0)
             {
                 rb.velocity = new Vector3(hForce * currentSpeed, 0, zForce * currentSpeed);
 
                 anim.SetFloat("Speed", Mathf.Abs(currentSpeed));
 
-                if (Mathf.Abs(targetDistance.x) < 1.5f && Mathf.Abs(targetDistance.z) < 1.5f && Time.time > nextAttack && !Player.isDead)
+                if (Mathf.Abs(targetDistance.x) < 2f && Mathf.Abs(targetDistance.z) < 2f && Time.time > nextAttack && !Player.isDead)
                 {
                     anim.SetTrigger("Attack");
                     PlaySong(enemyAttack);
@@ -136,6 +139,20 @@ public class Enemy : MonoBehaviour
                 rb.AddRelativeForce(new Vector3(3, 5, 0), ForceMode.Impulse);
                 PlaySong(deathSound);
             }
+        }
+    }
+
+    void EnemyShoot()
+    {
+        GameObject projectile = Instantiate(enemyProjectile, launchPoint.position, launchPoint.rotation);
+        enemyProjectile.SetActive(true);
+        if (facingRight)
+        {
+            projectile.GetComponent<Projectiles>().direction = 1;
+        }
+        else
+        {
+            projectile.GetComponent<Projectiles>().direction = -1;
         }
     }
 

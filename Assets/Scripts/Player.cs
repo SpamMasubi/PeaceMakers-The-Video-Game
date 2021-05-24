@@ -8,18 +8,17 @@ public class Player : MonoBehaviour
     public float maxSpeed = 4;
     public float jumpForce = 400;
     public float minHeight, maxHeight;
-    public int maxHealth = 10;
     public string playerName;
     public Sprite playerImage;
-    public AudioClip collisionSound, playerShoot, playerComboed, playerDead, playerRespawnSound, jumpSound, attackYell, healthItem;
+    public AudioClip collisionSound, playerShoot, playerComboed, playerDead, playerRespawnSound, jumpSound, attackYell, healthItem, get1Up;
     public Weapon weapon;
     public SpecialWeapon specialWeapon;
     public GameObject playerProjectile;
     public Transform launchPoint;
 
     private bool comboDamaged = false;
-    private int comboCount = 0;
-    private int currentHealth;
+    protected int comboCount = 0;
+    public static int currentHealth;
     private float currentSpeed;
     private Rigidbody rb;
     private Animator anim;
@@ -32,6 +31,7 @@ public class Player : MonoBehaviour
     private AudioSource audioS;
     private bool holdingWeapon = false;
     private bool holdingSpecialWeapon = false;
+    public static bool notMaxHealth = false;
     private MusicController music;
 
     // Start is called before the first frame update
@@ -41,7 +41,14 @@ public class Player : MonoBehaviour
         anim = GetComponent<Animator>();
         groundCheck = gameObject.transform.Find("GroundCheck");
         currentSpeed = maxSpeed;
-        currentHealth = maxHealth;
+        if (!notMaxHealth)
+        {
+            currentHealth = GameManager.maxHealth;
+        }
+        else
+        {
+            currentHealth = EnemySpawn.playerCurrentHealth;
+        }
         audioS = GetComponent<AudioSource>();
         music = FindObjectOfType<MusicController>();
     }
@@ -57,7 +64,7 @@ public class Player : MonoBehaviour
         anim.SetBool("Weapon", holdingWeapon);
         anim.SetBool("SpecialWeapon", holdingSpecialWeapon);
 
-        if (!isDead && !Boss.winLevel && !comboDamaged)
+        if (!isDead && !comboDamaged && !Boss.winLevel && !Stage2Boss.winLevel && !Stage3Boss.winLevel)
         {
             if (Input.GetButtonDown("Jump") && onGround)
             {
@@ -75,7 +82,7 @@ public class Player : MonoBehaviour
             }
         }
 
-        if (Boss.winLevel || Stage2Boss.winLevel)
+        if (Boss.winLevel || Stage2Boss.winLevel || Stage3Boss.winLevel)
         {
             anim.SetBool("WinLevel", true);
         }
@@ -87,7 +94,7 @@ public class Player : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (!isDead && !Boss.winLevel && !comboDamaged)
+        if (!isDead && !comboDamaged && !Boss.winLevel && !Stage2Boss.winLevel && !Stage3Boss.winLevel)
         {
             float h = Input.GetAxis("Horizontal");
             float y = Input.GetAxis("Vertical");
@@ -163,6 +170,9 @@ public class Player : MonoBehaviour
         if (!isDead && !comboDamaged)
         {
             currentHealth -= damage;
+            notMaxHealth = true;
+            EnemySpawn.playerCurrentHealth = currentHealth;
+            comboCount += 1;
             anim.SetTrigger("HitDamage");
             FindObjectOfType<UIManager>().healthUpdate(currentHealth);
             PlaySong(collisionSound);
@@ -170,7 +180,14 @@ public class Player : MonoBehaviour
             {
                 PlaySong(playerComboed);
                 comboDamaged = true;
-                rb.AddRelativeForce(new Vector3(3, 5, 0), ForceMode.Impulse);
+                if (facingRight)
+                {
+                    rb.AddForce(new Vector3(-3, 5, 0), ForceMode.Impulse);
+                }
+                else
+                {
+                    rb.AddForce(new Vector3(3, 5, 0), ForceMode.Impulse);
+                }
             }
             if (currentHealth <= 0)
             {
@@ -211,8 +228,20 @@ public class Player : MonoBehaviour
                 Destroy(other.gameObject);
                 anim.SetTrigger("Catching");
                 PlaySong(healthItem);
-                currentHealth = maxHealth;
+                currentHealth = GameManager.maxHealth;
                 FindObjectOfType<UIManager>().healthUpdate(currentHealth);
+            }
+        }
+
+        if (other.CompareTag("1-Up Item"))
+        {
+            if (Input.GetButtonDown("Fire2"))
+            {
+                Destroy(other.gameObject);
+                anim.SetTrigger("Catching");
+                PlaySong(get1Up);
+                FindObjectOfType<GameManager>().lives++;
+                FindObjectOfType<UIManager>().UpdateLives();
             }
         }
 
@@ -266,7 +295,7 @@ public class Player : MonoBehaviour
             PlaySong(playerRespawnSound);
             isDead = false;
             FindObjectOfType<UIManager>().UpdateLives();
-            currentHealth = maxHealth;
+            currentHealth = GameManager.maxHealth;
             FindObjectOfType<UIManager>().healthUpdate(currentHealth);
             anim.Rebind();
             float minWidth = Camera.main.ScreenToWorldPoint(new Vector3(0, 0, 10)).x;
@@ -285,20 +314,21 @@ public class Player : MonoBehaviour
     void PlayerShoot()
     {
         PlaySong(playerShoot);
-        GameObject tempAxe = Instantiate(playerProjectile, launchPoint.position, launchPoint.rotation);
+        GameObject projectile = Instantiate(playerProjectile, launchPoint.position, launchPoint.rotation);
         playerProjectile.SetActive(true);
         if (facingRight)
         {
-            tempAxe.GetComponent<Projectiles>().direction = 1;
+            projectile.GetComponent<Projectiles>().direction = 1;
         }
         else
         {
-            tempAxe.GetComponent<Projectiles>().direction = -1;
+            projectile.GetComponent<Projectiles>().direction = -1;
         }
     }
 
     void LoadScene()
     {
+        Destroy(FindObjectOfType<UIManager>().gameObject);
         SceneManager.LoadScene(2);
         isDead = false;
     }

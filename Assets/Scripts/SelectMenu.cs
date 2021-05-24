@@ -114,6 +114,8 @@ public class SelectMenu : MonoBehaviour
 
             if (Input.GetButtonDown("Fire2")){
                 SceneManager.LoadScene(1);
+                Menu.startFirstLevel = false;
+                Destroy(FindObjectOfType<GameManager>().gameObject);
             }
         }
     }

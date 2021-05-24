@@ -29,7 +29,7 @@ public class Boss : Enemy
     void ThrowAxe()
     {
 
-        if (!isDead && !damaged)
+        if (!isDead && comboCount == 0)
         {
             anim.SetTrigger("Axe");
             PlayBoss(throwAxe);
@@ -76,6 +76,8 @@ public class Boss : Enemy
         SceneManager.LoadScene(3);
         startLevel2 = true;
         winLevel = false;
+        Destroy(FindObjectOfType<UIManager>().gameObject);
+        
     }
 
     public void PlayBoss(AudioClip clip)

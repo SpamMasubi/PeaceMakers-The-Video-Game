@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
-
+    private UIManager um;
     public Slider healthUI;
     public Image playerImage;
     public Text playerName;
@@ -23,14 +23,28 @@ public class UIManager : MonoBehaviour
 
     private Player player;
 
+    void Awake()
+    {
+        if (um == null)
+        {
+            um = this;
+            
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+
+        DontDestroyOnLoad(gameObject);
+    }
     // Start is called before the first frame update
     void Start()
     {
         player = FindObjectOfType<Player>();
-        healthUI.maxValue = player.maxHealth;
-        healthUI.value = healthUI.maxValue;
         playerName.text = player.playerName;
         playerImage.sprite = player.playerImage;
+        healthUI.maxValue = GameManager.maxHealth;
+        healthUI.value = healthUI.maxValue;
         UpdateLives();
     }
 

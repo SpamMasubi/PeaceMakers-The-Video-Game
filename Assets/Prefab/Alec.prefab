@@ -227,7 +227,6 @@ MonoBehaviour:
   jumpForce: 400
   minHeight: -7.5
   maxHeight: -1.6
-  maxHealth: 100
   playerName: Alec
   playerImage: {fileID: -6801918768286528650, guid: 7e53d9754ee445c4995428c3f1a09c69, type: 3}
   collisionSound: {fileID: 8300000, guid: a444ad84a0e82404499eec02e3fbfd60, type: 3}
@@ -237,11 +236,14 @@ MonoBehaviour:
   playerRespawnSound: {fileID: 8300000, guid: 5000828973adaa940b0a18dbc712d412, type: 3}
   jumpSound: {fileID: 8300000, guid: 26b61a8dc25e691499a4df779ae1f5d2, type: 3}
   attackYell: {fileID: 8300000, guid: 32b89cd89839e5947bdb1193b0a5032a, type: 3}
-  healthItem: {fileID: 8300000, guid: 66b1dcbcf3c9e294c9e32a12f9d6640d, type: 3}
+  healthItem: {fileID: 8300000, guid: 0499ac5eff07b0e40b7d7fc9dbae1d2f, type: 3}
+  get1Up: {fileID: 8300000, guid: 66b1dcbcf3c9e294c9e32a12f9d6640d, type: 3}
   weapon: {fileID: 8964579319205146907}
   specialWeapon: {fileID: 2398742589594022529}
   playerProjectile: {fileID: 22575917769993638, guid: 575bd3305e01007489c5460601f143ef, type: 3}
   launchPoint: {fileID: 7822272111102009619}
+  flashLength: 0.75
+  playerSprite: {fileID: 542231440540109717}
 --- !u!95 &542231440540109714
 Animator:
   serializedVersion: 3

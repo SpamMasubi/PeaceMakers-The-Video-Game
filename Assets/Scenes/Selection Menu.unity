@@ -1011,6 +1011,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lives: 4
+  maxHealth: 100
   characterIndex: 0
 --- !u!4 &760398423
 Transform:
