@@ -64,7 +64,7 @@ public class Player : MonoBehaviour
         anim.SetBool("Weapon", holdingWeapon);
         anim.SetBool("SpecialWeapon", holdingSpecialWeapon);
 
-        if (!isDead && !comboDamaged && !Boss.winLevel && !Stage2Boss.winLevel && !Stage3Boss.winLevel)
+        if (!isDead && !comboDamaged && !Boss.winLevel && !Stage2Boss.winLevel && !Stage3Boss.winLevel && !Stage4Boss.winLevel)
         {
             if (Input.GetButtonDown("Jump") && onGround)
             {
@@ -73,7 +73,6 @@ public class Player : MonoBehaviour
 
             if (Input.GetButtonDown("Fire1"))
             {
-                
                 anim.SetTrigger("Attack");
                 if (!holdingSpecialWeapon)
                 {
@@ -82,7 +81,7 @@ public class Player : MonoBehaviour
             }
         }
 
-        if (Boss.winLevel || Stage2Boss.winLevel || Stage3Boss.winLevel)
+        if (Boss.winLevel || Stage2Boss.winLevel || Stage3Boss.winLevel || Stage4Boss.winLevel)
         {
             anim.SetBool("WinLevel", true);
         }
@@ -94,7 +93,7 @@ public class Player : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (!isDead && !comboDamaged && !Boss.winLevel && !Stage2Boss.winLevel && !Stage3Boss.winLevel)
+        if (!isDead && !comboDamaged && !Boss.winLevel && !Stage2Boss.winLevel && !Stage3Boss.winLevel && !Stage4Boss.winLevel)
         {
             float h = Input.GetAxis("Horizontal");
             float y = Input.GetAxis("Vertical");

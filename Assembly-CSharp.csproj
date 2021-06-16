@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scripts\CameraFollows.cs" />
     <Compile Include="Assets\Scripts\PlayerSpawner.cs" />
     <Compile Include="Assets\Scripts\Attack.cs" />
+    <Compile Include="Assets\Scripts\Stage3Boss.cs" />
     <Compile Include="Assets\Scripts\PickableWeapon.cs" />
     <Compile Include="Assets\Scripts\ShootableWeapons.cs" />
     <Compile Include="Assets\Scripts\ChapterIntro.cs" />
@@ -80,7 +81,7 @@
     <Compile Include="Assets\Scripts\BreakableObject.cs" />
     <Compile Include="Assets\Scripts\Projectiles.cs" />
     <Compile Include="Assets\Scripts\UIManager.cs" />
-    <Compile Include="Assets\Scripts\Stage3Boss.cs" />
+    <Compile Include="Assets\Scripts\Stage4Boss.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

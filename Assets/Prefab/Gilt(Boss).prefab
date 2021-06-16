@@ -241,7 +241,7 @@ MonoBehaviour:
   maxSpeed: 6
   minHeight: -7.5
   maxHeight: -1.6
-  damageTime: 1
+  damageTime: 1.5
   maxHealth: 50
   attackRate: 2
   enemyName: Gilt(Boss)
@@ -253,8 +253,8 @@ MonoBehaviour:
   enemyProjectile: {fileID: 0}
   launchPoint: {fileID: 0}
   specialAttackObj: {fileID: 7680096835198375783, guid: 2fcab69a48241224dbfdbac5312c53e8, type: 3}
-  minSpecialTime: 6
-  maxSpecialTime: 8
+  minSpecialTime: 8
+  maxSpecialTime: 12
   bossStart: {fileID: 8300000, guid: 1ddffb9fc321cbf40b6705d7fc7b3ffe, type: 3}
   specialAttackSound: {fileID: 8300000, guid: 3364846a5a7b1244a87dccabdbc56bb3, type: 3}
   masakiVictory: {fileID: 8300000, guid: 49368df827fd3e64d95c01fda864ad46, type: 3}

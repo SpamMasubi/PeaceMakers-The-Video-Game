@@ -67,6 +67,20 @@ public class ChapterIntro : MonoBehaviour
             }
 
         }
+        else if (Stage3Boss.startLevel4)
+        {
+            levelToLoad = "Stage 4-1";
+            chapterTitle.text = "Chapter 4";
+            chapterName.text = "ヴァンプのブランド\n" + "Blood of Vamp";
+            StartCoroutine(activeStart());
+            if (Input.GetKeyDown("space") && canStart)
+            {
+                Invoke("LoadScene", 1f);
+                startMessage.SetActive(false);
+                Stage3Boss.startLevel4 = false;
+            }
+
+        }
     }
 
     public IEnumerator activeStart()

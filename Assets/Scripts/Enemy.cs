@@ -93,7 +93,7 @@ public class Enemy : MonoBehaviour
                 walkTimer = 0;
             }
 
-            if(Mathf.Abs(targetDistance.x) < 1.5f)
+            if(Mathf.Abs(targetDistance.x) < 1f)
             {
                 hForce = 0;
             }
@@ -104,7 +104,7 @@ public class Enemy : MonoBehaviour
 
                 anim.SetFloat("Speed", Mathf.Abs(currentSpeed));
 
-                if (Mathf.Abs(targetDistance.x) < 2f && Mathf.Abs(targetDistance.z) < 2f && Time.time > nextAttack && !Player.isDead)
+                if (Mathf.Abs(targetDistance.x) < 2f && Mathf.Abs(targetDistance.z) < 2f && Time.time > nextAttack && !Player.isDead && !damaged)
                 {
                     anim.SetTrigger("Attack");
                     PlaySong(enemyAttack);

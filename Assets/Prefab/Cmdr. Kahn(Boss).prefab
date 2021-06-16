@@ -183,7 +183,7 @@ MonoBehaviour:
   maxSpeed: 5
   minHeight: -7.5
   maxHeight: -1.6
-  damageTime: 1
+  damageTime: 1.5
   maxHealth: 50
   attackRate: 2.5
   enemyName: Cmdr. Kahn
@@ -195,8 +195,8 @@ MonoBehaviour:
   enemyProjectile: {fileID: 0}
   launchPoint: {fileID: 0}
   specialAttackObj: {fileID: 338271655617039740, guid: eaa2c01dc50d0a04283404e239e4092c, type: 3}
-  minSpecialTime: 8
-  maxSpecialTime: 10
+  minSpecialTime: 12
+  maxSpecialTime: 16
   bossStart: {fileID: 8300000, guid: 41ee58a69ea1a7e47af2fc56b74033f5, type: 3}
   specialAttackSound: {fileID: 8300000, guid: d45229af69d86754f9d0ac32628d9e30, type: 3}
   masakiVictory: {fileID: 8300000, guid: 49368df827fd3e64d95c01fda864ad46, type: 3}
