@@ -16,6 +16,11 @@ public class Player : MonoBehaviour
     public GameObject playerProjectile;
     public Transform launchPoint;
 
+    public float flashLength;
+    private bool flashActive;
+    private float flashCounter;
+    private SpriteRenderer playerSprite;
+
     private bool comboDamaged = false;
     protected int comboCount = 0;
     public static int currentHealth;
@@ -39,6 +44,7 @@ public class Player : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         anim = GetComponent<Animator>();
+        playerSprite = GetComponent<SpriteRenderer>();
         groundCheck = gameObject.transform.Find("GroundCheck");
         currentSpeed = maxSpeed;
         if (!notMaxHealth)
@@ -64,7 +70,7 @@ public class Player : MonoBehaviour
         anim.SetBool("Weapon", holdingWeapon);
         anim.SetBool("SpecialWeapon", holdingSpecialWeapon);
 
-        if (!isDead && !comboDamaged && !Boss.winLevel && !Stage2Boss.winLevel && !Stage3Boss.winLevel && !Stage4Boss.winLevel)
+        if (!isDead && !comboDamaged && !Boss.bossDefeated && !Stage2Boss.bossDefeated && !Stage3Boss.bossDefeated && !Stage4Boss.bossDefeated)
         {
             if (Input.GetButtonDown("Jump") && onGround)
             {
@@ -81,7 +87,61 @@ public class Player : MonoBehaviour
             }
         }
 
-        if (Boss.winLevel || Stage2Boss.winLevel || Stage3Boss.winLevel || Stage4Boss.winLevel)
+        if (flashActive)
+        {
+            if (flashCounter > flashLength * 3.30f)
+            {
+                playerSprite.color = new Color(playerSprite.color.r, playerSprite.color.g, playerSprite.color.b, 0f);
+            }
+            else if (flashCounter > flashLength * 2.97)
+            {
+                playerSprite.color = new Color(playerSprite.color.r, playerSprite.color.g, playerSprite.color.b, 1f);
+            }
+            else if (flashCounter > flashLength * 2.64f)
+            {
+                playerSprite.color = new Color(playerSprite.color.r, playerSprite.color.g, playerSprite.color.b, 0f);
+            }
+            else if (flashCounter > flashLength * 2.31)
+            {
+                playerSprite.color = new Color(playerSprite.color.r, playerSprite.color.g, playerSprite.color.b, 1f);
+            }
+            else if (flashCounter > flashLength * 1.98f)
+            {
+                playerSprite.color = new Color(playerSprite.color.r, playerSprite.color.g, playerSprite.color.b, 0f);
+            }
+            else if (flashCounter > flashLength * 1.65f)
+            {
+                playerSprite.color = new Color(playerSprite.color.r, playerSprite.color.g, playerSprite.color.b, 1f);
+            }
+            else if (flashCounter > flashLength * 1.32f)
+            {
+                playerSprite.color = new Color(playerSprite.color.r, playerSprite.color.g, playerSprite.color.b, 0f);
+            }
+            else if (flashCounter > flashLength * 0.99f)
+            {
+                playerSprite.color = new Color(playerSprite.color.r, playerSprite.color.g, playerSprite.color.b, 1f);
+            }
+            else if (flashCounter > flashLength * 0.66f)
+            {
+                playerSprite.color = new Color(playerSprite.color.r, playerSprite.color.g, playerSprite.color.b, 0f);
+            }
+            else if (flashCounter > flashLength * 0.33f)
+            {
+                playerSprite.color = new Color(playerSprite.color.r, playerSprite.color.g, playerSprite.color.b, 1f);
+            }
+            else if (flashCounter > 0.0f)
+            {
+                playerSprite.color = new Color(playerSprite.color.r, playerSprite.color.g, playerSprite.color.b, 0f);
+            }
+            else
+            {
+                playerSprite.color = new Color(playerSprite.color.r, playerSprite.color.g, playerSprite.color.b, 1f);
+                flashActive = false;
+            }
+            flashCounter -= Time.deltaTime;
+        }
+
+        if (Boss.bossDefeated || Stage2Boss.bossDefeated || Stage3Boss.bossDefeated || Stage4Boss.bossDefeated)
         {
             anim.SetBool("WinLevel", true);
         }
@@ -93,7 +153,7 @@ public class Player : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (!isDead && !comboDamaged && !Boss.winLevel && !Stage2Boss.winLevel && !Stage3Boss.winLevel && !Stage4Boss.winLevel)
+        if (!isDead && !comboDamaged && !Boss.bossDefeated && !Stage2Boss.bossDefeated && !Stage3Boss.bossDefeated && !Stage4Boss.bossDefeated)
         {
             float h = Input.GetAxis("Horizontal");
             float y = Input.GetAxis("Vertical");
@@ -109,7 +169,7 @@ public class Player : MonoBehaviour
             }
 
             if (running) {
-                rb.velocity = new Vector3(h * (currentSpeed * 1.5f), rb.velocity.y, y * (currentSpeed * 1.5f));
+                rb.velocity = new Vector3(h * (currentSpeed * 2.0f), rb.velocity.y, y * (currentSpeed * 2.0f));
                 anim.SetBool("Run", running);
                 running = false;
             }
@@ -124,7 +184,7 @@ public class Player : MonoBehaviour
                 anim.SetFloat("Speed", Mathf.Abs(rb.velocity.magnitude));
             }
 
-            if(h>0 && !facingRight)
+            if (h>0 && !facingRight)
             {
                 Flip();
             }else if( h<0 && facingRight)
@@ -166,7 +226,7 @@ public class Player : MonoBehaviour
 
     public void TookDamage(int damage)
     {
-        if (!isDead && !comboDamaged)
+        if (!isDead && !comboDamaged && !flashActive)
         {
             currentHealth -= damage;
             notMaxHealth = true;
@@ -228,6 +288,7 @@ public class Player : MonoBehaviour
                 anim.SetTrigger("Catching");
                 PlaySong(healthItem);
                 currentHealth = GameManager.maxHealth;
+                notMaxHealth = false;
                 FindObjectOfType<UIManager>().healthUpdate(currentHealth);
             }
         }
@@ -292,7 +353,12 @@ public class Player : MonoBehaviour
         if (FindObjectOfType<GameManager>().lives > 0)
         {
             PlaySong(playerRespawnSound);
+            flashActive = true;
+            //flashCounter = flashLength + 1.5f;
+            flashCounter = flashLength + 1f;
             isDead = false;
+            notMaxHealth = false;
+            FindObjectOfType<Enemy>().ResetSpeed();
             FindObjectOfType<UIManager>().UpdateLives();
             currentHealth = GameManager.maxHealth;
             FindObjectOfType<UIManager>().healthUpdate(currentHealth);

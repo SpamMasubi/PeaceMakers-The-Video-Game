@@ -378,8 +378,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
-  m_EffectDistance: {x: 1, y: -1}
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 5, y: -5}
   m_UseGraphicAlpha: 1
 --- !u!114 &268384788
 MonoBehaviour:
@@ -419,33 +419,33 @@ MonoBehaviour:
 
 
 
-    A nuclear war had occured destroying the entire world.
-    The world is engulf in the flames of hell. The seas have dried up...the earth
-    turned into a vast desert wasteland. It seems that all of civilizations have
-    been completly wiped out.
+    A nuclear war had started. The nuclear missiles hit every
+    parts of the earth. The world is engulf in the flames of hell. The seas have
+    dried up...the earth turned into a vast desert wasteland. It seems that all of
+    civilizations have been completly wiped out.
 
 
     However...
 
 
-    Mankind still continue to live
-    on.
+    Mankind still
+    continue to live on.
 
 
-    As the wasteland became an untamed world, so did the rise of the strong
-    over the weak. Gang of bandits and power-hungry warlords of master martial artists
-    began to attack the weak people and turning the village they conquered as their
-    own. Overcome  by the suffering of the innocents, the Heavens heard their cries
-    for help and called in a group of fighter to become the savior for the people
-    and protector of justice and peace. They are known as the Masubi Clan, peacemakers
-    of the innocent. With skilled fighting and martial artists, the Masubi Clan ventures
-    into the wasteland protecting the people and destroying the evil from within.
+    As the wasteland became an untamed world, so did the
+    rise of the strong over the weak. Gang of bandits and power-hungry warlords of
+    master martial artists began to attack the weak people and turning the village
+    they conquered as their own. Overcome  by the suffering of the innocents, the
+    Heavens heard their cries for help and called in a group of fighter to become
+    the savior for the people and protector of justice and peace. They are known
+    as the Masubi Clan, peacemakers of the innocent. With skilled fighting and martial
+    artists, the Masubi Clan ventures into the wasteland protecting the people and
+    destroying the evil from within.
 
 
 
-    Yet,
-    this is only the beginning of their long path of  being the savior of the end
-    century.'
+    Yet, this is only the beginning of their
+    long path of  being the savior of the end century.'
 --- !u!222 &268384789
 CanvasRenderer:
   m_ObjectHideFlags: 0

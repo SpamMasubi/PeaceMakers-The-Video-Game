@@ -336,6 +336,7 @@ MonoBehaviour:
   deathSound: {fileID: 8300000, guid: 944ddb7a7cf055a43949893704f50eb2, type: 3}
   enemyProjectile: {fileID: 2621919756848907912, guid: b2e21a2c006c5e24da4f6d92e8cb2865, type: 3}
   launchPoint: {fileID: 3916296168322640161}
+  flashLength: 0.3
   specialAttackObj: {fileID: 334227765850725698, guid: 65f1c239a0d1289498111da772536661, type: 3}
   minSpecialTime: 12
   maxSpecialTime: 16

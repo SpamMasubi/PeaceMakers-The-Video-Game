@@ -242,8 +242,7 @@ MonoBehaviour:
   specialWeapon: {fileID: 2398742589594022529}
   playerProjectile: {fileID: 22575917769993638, guid: 575bd3305e01007489c5460601f143ef, type: 3}
   launchPoint: {fileID: 7822272111102009619}
-  flashLength: 0.75
-  playerSprite: {fileID: 542231440540109717}
+  flashLength: 0.3
 --- !u!95 &542231440540109714
 Animator:
   serializedVersion: 3

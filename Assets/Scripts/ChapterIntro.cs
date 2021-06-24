@@ -27,20 +27,7 @@ public class ChapterIntro : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Menu.startFirstLevel)
-        {
-            levelToLoad = "Stage 1";
-            chapterTitle.text = "Chapter 1";
-            chapterName.text = "ザクギャング\n" + "Zaku Gang";
-            StartCoroutine(activeStart());
-            if (Input.GetKeyDown("space") && canStart)
-            {
-                Invoke("LoadScene", 1f);
-                startMessage.SetActive(false);
-                Menu.startFirstLevel = false;
-            }
-        }
-        else if (Boss.startLevel2)
+        if (Boss.winLevel)
         {
             levelToLoad = "Stage 2-1";
             chapterTitle.text = "Chapter 2";
@@ -50,10 +37,9 @@ public class ChapterIntro : MonoBehaviour
             {
                 Invoke("LoadScene", 1f);
                 startMessage.SetActive(false);
-                Boss.startLevel2 = false;
             }
         }
-        else if (Stage2Boss.startLevel3)
+        else if (Stage2Boss.winLevel)
         {
             levelToLoad = "Stage 3-1";
             chapterTitle.text = "Chapter 3";
@@ -63,11 +49,10 @@ public class ChapterIntro : MonoBehaviour
             {
                 Invoke("LoadScene", 1f);
                 startMessage.SetActive(false);
-                Stage2Boss.startLevel3 = false;
             }
 
         }
-        else if (Stage3Boss.startLevel4)
+        else if (Stage3Boss.winLevel)
         {
             levelToLoad = "Stage 4-1";
             chapterTitle.text = "Chapter 4";
@@ -77,9 +62,20 @@ public class ChapterIntro : MonoBehaviour
             {
                 Invoke("LoadScene", 1f);
                 startMessage.SetActive(false);
-                Stage3Boss.startLevel4 = false;
             }
 
+        }
+        else
+        {
+            levelToLoad = "Stage 1";
+            chapterTitle.text = "Chapter 1";
+            chapterName.text = "ザクギャング\n" + "Zaku Gang";
+            StartCoroutine(activeStart());
+            if (Input.GetKeyDown("space") && canStart)
+            {
+                Invoke("LoadScene", 1f);
+                startMessage.SetActive(false);
+            }
         }
     }
 

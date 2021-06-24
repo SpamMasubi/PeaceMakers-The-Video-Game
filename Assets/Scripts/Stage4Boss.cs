@@ -13,7 +13,7 @@ public class Stage4Boss : Enemy
     private MusicController music;
     private AudioSource audioS;
     public static bool winLevel;
-    public static bool startLevel4;
+    public static bool bossDefeated = false;
 
     void Awake()
     {
@@ -48,6 +48,7 @@ public class Stage4Boss : Enemy
     {
         music.PlaySong(music.levelCompleteSong);
         winLevel = true;
+        bossDefeated = true;
         if (FindObjectOfType<GameManager>().characterIndex == 1)
         {
             PlayBoss(masakiVictory);
@@ -71,8 +72,8 @@ public class Stage4Boss : Enemy
     void LoadScene()
     {
         SceneManager.LoadScene(3);
-        startLevel4 = true;
-        winLevel = false;
+        Stage3Boss.winLevel = false;
+        bossDefeated = false;
         Destroy(FindObjectOfType<UIManager>().gameObject);
     }
 

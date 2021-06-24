@@ -31,7 +31,6 @@ public class EnemySpawn : MonoBehaviour
             {
                 if (isNextStage)
                 {
-                    //playerCurrentHealth = Player.currentHealth;
                     Invoke("LoadScene", 0.5f);
                 }
                 else

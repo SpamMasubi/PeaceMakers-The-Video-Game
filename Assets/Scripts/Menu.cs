@@ -5,13 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
-    public static bool startFirstLevel = false;
     private AudioSource audioS;
+    private bool selectionMade = false;
+    private Animator anim;
 
     // Start is called before the first frame update
     void Start()
     {
         audioS = GetComponent<AudioSource>();
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -19,14 +21,17 @@ public class Menu : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Return))
         {
-            startFirstLevel = true;
             PlaySound();
+            selectionMade = true;
+            anim.SetBool("Selection", selectionMade);
             Invoke("LoadScene", 1f);
         }
     }
 
     void LoadScene()
     {
+        selectionMade = false;
+        anim.SetBool("Selection", selectionMade);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
