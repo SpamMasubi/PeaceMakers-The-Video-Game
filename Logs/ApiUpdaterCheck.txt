@@ -98,3 +98,13 @@ C# parse time         : 923ms
 candidates check time : 70ms
 console write time    : 6ms
 
+[api-updater (non-obsolete-error-filter)] 8/8/2021 12:44:58 AM : Starting E:/My Games/Hub/Editor/2020.2.3f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 1622.8616ms
+moved types parse time: 92ms
+candidates parse time : 1ms
+C# parse time         : 1021ms
+candidates check time : 43ms
+console write time    : 19ms
+

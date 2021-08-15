@@ -307,6 +307,7 @@ MonoBehaviour:
   deathSound: {fileID: 8300000, guid: e623fee31732ef84689046d88462140d, type: 3}
   enemyProjectile: {fileID: 805954638093070249, guid: 9277019331bc67f4b88abb990b0f8c55, type: 3}
   launchPoint: {fileID: 9006745539279053566}
+  flashLength: 0
 --- !u!82 &6295514366520376098
 AudioSource:
   m_ObjectHideFlags: 0

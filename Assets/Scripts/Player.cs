@@ -10,7 +10,7 @@ public class Player : MonoBehaviour
     public float minHeight, maxHeight;
     public string playerName;
     public Sprite playerImage;
-    public AudioClip collisionSound, playerShoot, playerComboed, playerDead, playerRespawnSound, jumpSound, attackYell, healthItem, get1Up;
+    public AudioClip collisionSound, playerShoot, playerComboed, playerDead, playerRespawnSound, jumpSound, crowdBreaker, attackYell, healthItem, get1Up;
     public Weapon weapon;
     public SpecialWeapon specialWeapon;
     public GameObject playerProjectile;
@@ -20,9 +20,13 @@ public class Player : MonoBehaviour
     private bool flashActive;
     private float flashCounter;
     private SpriteRenderer playerSprite;
+    private bool isCrowdBreaker = false;
+    private bool isAttack = false;
+    private bool takenDamaged = false;
+    private bool playerInAir = false;
 
     private bool comboDamaged = false;
-    protected int comboCount = 0;
+    public static int comboCount = 0;
     public static int currentHealth;
     private float currentSpeed;
     private Rigidbody rb;
@@ -70,30 +74,59 @@ public class Player : MonoBehaviour
         anim.SetBool("Weapon", holdingWeapon);
         anim.SetBool("SpecialWeapon", holdingSpecialWeapon);
 
-        if (!isDead && !comboDamaged && !Boss.bossDefeated && !Stage2Boss.bossDefeated && !Stage3Boss.bossDefeated && !Stage4Boss.bossDefeated)
+        if (!isDead && !comboDamaged && !takenDamaged && !Boss.bossDefeated && !Stage2Boss.bossDefeated && !Stage3Boss.bossDefeated && !Stage4Boss.bossDefeated && !FinalBoss.bossDefeated)
         {
-            if (Input.GetButtonDown("Jump") && onGround)
+            if (Input.GetButtonDown("Jump") && onGround && !isCrowdBreaker && !isAttack)
             {
                 jump = true;
+                playerInAir = true;
             }
 
-            if (Input.GetButtonDown("Fire1"))
+            if (Input.GetButtonDown("Fire1") && Input.GetButton("Fire2") && !isCrowdBreaker && !playerInAir)
+            {
+                anim.SetTrigger("CrowdBreaker");
+                PlaySong(crowdBreaker);
+                isCrowdBreaker = true;
+            }
+            else if (Input.GetButtonDown("Fire1") && !isCrowdBreaker)
             {
                 anim.SetTrigger("Attack");
+                isAttack = true;
                 if (!holdingSpecialWeapon)
                 {
                     PlaySong(attackYell);
                 }
             }
+            
         }
 
         if (flashActive)
         {
-            if (flashCounter > flashLength * 3.30f)
+            if (flashCounter > flashLength * 4.95f)
+            {
+                playerSprite.color = new Color(playerSprite.color.r, playerSprite.color.g, playerSprite.color.b, 1f);
+            }
+            else if (flashCounter > flashLength * 4.62f)
             {
                 playerSprite.color = new Color(playerSprite.color.r, playerSprite.color.g, playerSprite.color.b, 0f);
             }
-            else if (flashCounter > flashLength * 2.97)
+            else if (flashCounter > flashLength * 4.29f)
+            {
+                playerSprite.color = new Color(playerSprite.color.r, playerSprite.color.g, playerSprite.color.b, 1f);
+            }
+            else if (flashCounter > flashLength * 3.96f)
+            {
+                playerSprite.color = new Color(playerSprite.color.r, playerSprite.color.g, playerSprite.color.b, 0f);
+            }
+            else if (flashCounter > flashLength * 3.63f)
+            {
+                playerSprite.color = new Color(playerSprite.color.r, playerSprite.color.g, playerSprite.color.b, 1f);
+            }
+            else if (flashCounter > flashLength * 3.30f)
+            {
+                playerSprite.color = new Color(playerSprite.color.r, playerSprite.color.g, playerSprite.color.b, 0f);
+            }
+            else if (flashCounter > flashLength * 2.97f)
             {
                 playerSprite.color = new Color(playerSprite.color.r, playerSprite.color.g, playerSprite.color.b, 1f);
             }
@@ -101,7 +134,7 @@ public class Player : MonoBehaviour
             {
                 playerSprite.color = new Color(playerSprite.color.r, playerSprite.color.g, playerSprite.color.b, 0f);
             }
-            else if (flashCounter > flashLength * 2.31)
+            else if (flashCounter > flashLength * 2.31f)
             {
                 playerSprite.color = new Color(playerSprite.color.r, playerSprite.color.g, playerSprite.color.b, 1f);
             }
@@ -141,7 +174,7 @@ public class Player : MonoBehaviour
             flashCounter -= Time.deltaTime;
         }
 
-        if (Boss.bossDefeated || Stage2Boss.bossDefeated || Stage3Boss.bossDefeated || Stage4Boss.bossDefeated)
+        if (Boss.bossDefeated || Stage2Boss.bossDefeated || Stage3Boss.bossDefeated || Stage4Boss.bossDefeated || FinalBoss.bossDefeated)
         {
             anim.SetBool("WinLevel", true);
         }
@@ -153,7 +186,7 @@ public class Player : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (!isDead && !comboDamaged && !Boss.bossDefeated && !Stage2Boss.bossDefeated && !Stage3Boss.bossDefeated && !Stage4Boss.bossDefeated)
+        if (!isDead && !comboDamaged && !Boss.bossDefeated && !Stage2Boss.bossDefeated && !Stage3Boss.bossDefeated && !Stage4Boss.bossDefeated && !FinalBoss.bossDefeated)
         {
             float h = Input.GetAxis("Horizontal");
             float y = Input.GetAxis("Vertical");
@@ -222,12 +255,18 @@ public class Player : MonoBehaviour
     void ResetSpeed()
     {
         currentSpeed = maxSpeed;
+        CrowdBreaker.crowdBreaker = false;
+        isCrowdBreaker = false;
+        isAttack = false;
+        takenDamaged = false;
+        playerInAir = false;
     }
 
     public void TookDamage(int damage)
     {
         if (!isDead && !comboDamaged && !flashActive)
         {
+            takenDamaged = true;
             currentHealth -= damage;
             notMaxHealth = true;
             EnemySpawn.playerCurrentHealth = currentHealth;
@@ -354,8 +393,7 @@ public class Player : MonoBehaviour
         {
             PlaySong(playerRespawnSound);
             flashActive = true;
-            //flashCounter = flashLength + 1.5f;
-            flashCounter = flashLength + 1f;
+            flashCounter = flashLength + 1.6f;
             isDead = false;
             notMaxHealth = false;
             FindObjectOfType<Enemy>().ResetSpeed();

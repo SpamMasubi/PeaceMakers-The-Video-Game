@@ -8,6 +8,7 @@ public class Projectiles : MonoBehaviour
     public int direction = 1;
     public int damage;
     private Rigidbody rb;
+
     void Start()
     {
         rb= GetComponent<Rigidbody>();
@@ -18,6 +19,7 @@ public class Projectiles : MonoBehaviour
             transform.localScale = scale;
         }
     }
+
     void FixedUpdate()
     {
         rb.velocity = new Vector3(speed * direction, 0, 0);

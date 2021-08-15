@@ -155,7 +155,7 @@ MonoBehaviour:
   minHeight: -7.5
   maxHeight: -1.6
   damageTime: 1
-  maxHealth: 12
+  maxHealth: 4
   attackRate: 2
   enemyName: Ares RPG
   enemyImage: {fileID: 8452814652981992376, guid: 5491f42c5a8300b48a61ec5b08e70fcd, type: 3}
@@ -165,6 +165,7 @@ MonoBehaviour:
   deathSound: {fileID: 8300000, guid: e623fee31732ef84689046d88462140d, type: 3}
   enemyProjectile: {fileID: 4691883013743251974, guid: 26c551b2367e9d7469ba27f5d073536e, type: 3}
   launchPoint: {fileID: 2173896257312955600}
+  flashLength: 0
 --- !u!82 &3858301269121680652
 AudioSource:
   m_ObjectHideFlags: 0

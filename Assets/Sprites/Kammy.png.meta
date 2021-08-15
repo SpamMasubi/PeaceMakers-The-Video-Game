@@ -80,6 +80,9 @@ TextureImporter:
   - first:
       213: 1263907689458525366
     second: Kammy_25
+  - first:
+      213: -4579404849286399817
+    second: Kammy_26
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -738,7 +741,7 @@ TextureImporter:
         width: 29
         height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -746,6 +749,27 @@ TextureImporter:
       bones: []
       spriteID: 6b46f0bd85d4a8110800000000000000
       internalID: 1263907689458525366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kammy_26
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 52
+        width: 47
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b835936d8fa270c0800000000000000
+      internalID: -4579404849286399817
       vertices: []
       indices: 
       edges: []

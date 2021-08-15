@@ -14,9 +14,11 @@ public class Stage2Boss : Enemy
     private AudioSource audioS;
     public static bool winLevel;
     public static bool bossDefeated = false;
+    public static bool secondBoss = false;
 
     void Awake()
     {
+        secondBoss = true;
         winLevel = false;
         music = FindObjectOfType<MusicController>();
         audioS = GetComponent<AudioSource>();
@@ -46,6 +48,8 @@ public class Stage2Boss : Enemy
 
     void BossDefeated()
     {
+        FindObjectOfType<UIManager>().enemyUI.SetActive(false);
+        secondBoss = false;
         music.PlaySong(music.levelCompleteSong);
         winLevel = true;
         bossDefeated = true;

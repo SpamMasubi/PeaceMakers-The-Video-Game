@@ -65,6 +65,19 @@ public class ChapterIntro : MonoBehaviour
             }
 
         }
+        else if (Stage4Boss.winLevel)
+        {
+            levelToLoad = "Stage 5-1";
+            chapterTitle.text = "Final Chapter";
+            chapterName.text = "キングヴァンプ、ヴラキュラ\n" + "King Vamp, Vladcula";
+            StartCoroutine(activeStart());
+            if (Input.GetKeyDown("space") && canStart)
+            {
+                Invoke("LoadScene", 1f);
+                startMessage.SetActive(false);
+            }
+
+        }
         else
         {
             levelToLoad = "Stage 1";

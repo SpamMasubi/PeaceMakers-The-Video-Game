@@ -39,6 +39,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Stage 4-2.unity
     guid: 381fc49bbb18ff04ebb63001c187a838
   - enabled: 1
+    path: Assets/Scenes/Stage 5-1.unity
+    guid: 31c3419f4a9c61a4e8ab2b80f20dbc54
+  - enabled: 1
+    path: Assets/Scenes/Stage 5-2.unity
+    guid: 1bbc71cce07a1cb4aac35ee0a7c40137
+  - enabled: 1
+    path: Assets/Scenes/Stage 5-3.unity
+    guid: 7f22d441dbb2ec44f9b92b2415a2502d
+  - enabled: 1
     path: Assets/Scenes/Credit Scene.unity
     guid: 7bf680ac9d420a243826e2d62114cbd1
   m_configObjects: {}

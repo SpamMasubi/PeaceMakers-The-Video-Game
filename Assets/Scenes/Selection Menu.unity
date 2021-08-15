@@ -1933,19 +1933,19 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 1f16052dfd5f6f54e94e97ecedd4c86b, type: 3}
-    m_FontSize: 49
+    m_FontSize: 45
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
-    m_MaxSize: 100
+    m_MaxSize: 300
     m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "[Martial Artist] \nYoungest of the 5 Ninjustu brothers & Masaki's adopted
-    brother."
+  m_Text: "[Martial Artist] \nThe youngest of the 5 Ninjustu brothers & Shadow Ninjutsu
+    martial artist."
 --- !u!222 &1241962821
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2695,7 +2695,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "[Medic] \nShe is a martial artist of the Ninjutsu Healing Techniques. "
+  m_Text: "[Medic] \nA martial artist of the Ninjutsu Healing Techniques. "
 --- !u!222 &1762607069
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2935,7 +2935,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "[Leader of the Masubi Clan] \nSuccessor to Ninjutsu Martial Arts. "
+  m_Text: "[Leader of the Masubi Clan] \n97th Successor to the Ninjutsu Martial Arts. "
 --- !u!222 &1917840817
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3014,7 +3014,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "[Archer] \nShe is a master marksmans in archery. "
+  m_Text: "[Archer] \nA skilled, master in archery and long range weaponry."
 --- !u!222 &1937960000
 CanvasRenderer:
   m_ObjectHideFlags: 0

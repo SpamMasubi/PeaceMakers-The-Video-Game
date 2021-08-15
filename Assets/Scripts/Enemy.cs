@@ -24,7 +24,7 @@ public class Enemy : MonoBehaviour
     private bool comboDamaged = false;
     protected int comboCount = 0;
     private int currentHealth;
-    private float currentSpeed;
+    protected float currentSpeed;
     private Rigidbody rb;
     protected Animator anim;
     private Transform groundCheck;
@@ -86,11 +86,31 @@ public class Enemy : MonoBehaviour
 
         if (flashActive)
         {
-            if (flashCounter > flashLength * 3.30f)
+            if (flashCounter > flashLength * 4.95f)
+            {
+                enemySprite.color = new Color(enemySprite.color.r, enemySprite.color.g, enemySprite.color.b, 1f);
+            }
+            else if (flashCounter > flashLength * 4.62f)
             {
                 enemySprite.color = new Color(enemySprite.color.r, enemySprite.color.g, enemySprite.color.b, 0f);
             }
-            else if (flashCounter > flashLength * 2.97)
+            else if (flashCounter > flashLength * 4.29f)
+            {
+                enemySprite.color = new Color(enemySprite.color.r, enemySprite.color.g, enemySprite.color.b, 1f);
+            }
+            else if (flashCounter > flashLength * 3.96f)
+            {
+                enemySprite.color = new Color(enemySprite.color.r, enemySprite.color.g, enemySprite.color.b, 0f);
+            }
+            else if (flashCounter > flashLength * 3.63f)
+            {
+                enemySprite.color = new Color(enemySprite.color.r, enemySprite.color.g, enemySprite.color.b, 1f);
+            }
+            else if (flashCounter > flashLength * 3.30f)
+            {
+                enemySprite.color = new Color(enemySprite.color.r, enemySprite.color.g, enemySprite.color.b, 0f);
+            }
+            else if (flashCounter > flashLength * 2.97f)
             {
                 enemySprite.color = new Color(enemySprite.color.r, enemySprite.color.g, enemySprite.color.b, 1f);
             }
@@ -98,7 +118,7 @@ public class Enemy : MonoBehaviour
             {
                 enemySprite.color = new Color(enemySprite.color.r, enemySprite.color.g, enemySprite.color.b, 0f);
             }
-            else if (flashCounter > flashLength * 2.31)
+            else if (flashCounter > flashLength * 2.31f)
             {
                 enemySprite.color = new Color(enemySprite.color.r, enemySprite.color.g, enemySprite.color.b, 1f);
             }
@@ -158,6 +178,16 @@ public class Enemy : MonoBehaviour
                 hForce = 0;
             }
 
+            if (Player.isDead)
+            {
+                currentSpeed = 0;
+                anim.SetFloat("Speed", Mathf.Abs(currentSpeed));
+            }
+            else
+            {
+                currentSpeed = maxSpeed;
+            }
+
             if (!damaged && comboCount == 0)
             {
                 rb.velocity = new Vector3(hForce * currentSpeed, 0, zForce * currentSpeed);
@@ -174,11 +204,7 @@ public class Enemy : MonoBehaviour
             }
         }
 
-        if (Player.isDead)
-        {
-            currentSpeed = 0;
-            anim.SetFloat("Speed", Mathf.Abs(currentSpeed));
-        }
+        
 
         rb.position = new Vector3(rb.position.x, rb.position.y, Mathf.Clamp(rb.position.z, minHeight, maxHeight));
 
@@ -194,7 +220,7 @@ public class Enemy : MonoBehaviour
             anim.SetTrigger("HitDamage");
             PlaySong(collisionSound);
             FindObjectOfType<UIManager>().UpdateEnemyUI(maxHealth, currentHealth, enemyName, enemyImage);
-            if (comboCount == 4 && currentHealth > 0)
+            if (comboCount == 4 && currentHealth > 0 || CrowdBreaker.crowdBreaker)
             {
                 PlaySong(enemyComboed);
                 comboDamaged = true;
@@ -215,11 +241,11 @@ public class Enemy : MonoBehaviour
         enemyProjectile.SetActive(true);
         if (facingRight)
         {
-            projectile.GetComponent<Projectiles>().direction = 1;
+            projectile.GetComponent<Projectiles>().speed = Mathf.Abs(projectile.GetComponent<Projectiles>().speed);
         }
         else
         {
-            projectile.GetComponent<Projectiles>().direction = -1;
+            projectile.GetComponent<Projectiles>().speed = -(projectile.GetComponent<Projectiles>().speed);
         }
     }
 
@@ -232,12 +258,18 @@ public class Enemy : MonoBehaviour
 
     public void DisableEnemy()
     {
-        gameObject.SetActive(false);
+        if (FinalMidBoss.midBoss)
+        {
+            FindObjectOfType<UIManager>().enemyUI.SetActive(false);
+            FinalMidBoss.midBoss = false;
+        }
+        Destroy(gameObject);
     }
 
     public void ResetSpeed()
     {
         currentSpeed = maxSpeed;
+        CrowdBreaker.crowdBreaker = false;
     }
 
     public void PlaySong(AudioClip clip)
@@ -249,7 +281,6 @@ public class Enemy : MonoBehaviour
     public void invincibleFlash()
     {
         flashActive = true;
-        //flashCounter = flashLength + 1.5f;
-        flashCounter = flashLength + 1f;
+        flashCounter = flashLength + 1.6f;
     }
 }

@@ -136,7 +136,7 @@ MonoBehaviour:
   breakCountDown: 3
   drops: 0
   itemsDrop:
-  - {fileID: 2068797259401529605, guid: 90a27e39ca9a2c14a884ed2e17c3b5cd, type: 3}
+  - {fileID: 8733961278880707564, guid: 45de84383f0816e46bf1fe8200734a55, type: 3}
   dropPoint: {fileID: 981769458426478598}
 --- !u!65 &981769457913265459
 BoxCollider:

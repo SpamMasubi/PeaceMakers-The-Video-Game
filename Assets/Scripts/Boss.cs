@@ -15,9 +15,11 @@ public class Boss : Enemy
     private AudioSource audioS;
     public static bool winLevel;
     public static bool bossDefeated = false;
+    public static bool firstBoss = false;
 
     void Awake()
     {
+        firstBoss = true;
         winLevel = false;
         Invoke("ThrowAxe", Random.Range(minAxeTime, maxAxeTime));
         music = FindObjectOfType<MusicController>();
@@ -49,6 +51,8 @@ public class Boss : Enemy
 
     void BossDefeated()
     {
+        FindObjectOfType<UIManager>().enemyUI.SetActive(false);
+        firstBoss = false;
         music.PlaySong(music.levelCompleteSong);
         winLevel = true;
         bossDefeated = true;
@@ -77,7 +81,7 @@ public class Boss : Enemy
         SceneManager.LoadScene(3);
         bossDefeated = false;
         Destroy(FindObjectOfType<UIManager>().gameObject);
-        
+        //Destroy(gameObject);
     }
 
     public void PlayBoss(AudioClip clip)

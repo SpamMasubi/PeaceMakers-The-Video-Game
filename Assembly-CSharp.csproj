@@ -68,8 +68,10 @@
     <Compile Include="Assets\Scripts\WeaponItem.cs" />
     <Compile Include="Assets\Scripts\Stage2Boss.cs" />
     <Compile Include="Assets\Scripts\CameraFollows.cs" />
+    <Compile Include="Assets\Scripts\FinalBoss.cs" />
     <Compile Include="Assets\Scripts\PlayerSpawner.cs" />
     <Compile Include="Assets\Scripts\Attack.cs" />
+    <Compile Include="Assets\Scripts\FinalMidBoss.cs" />
     <Compile Include="Assets\Scripts\Stage3Boss.cs" />
     <Compile Include="Assets\Scripts\PickableWeapon.cs" />
     <Compile Include="Assets\Scripts\ShootableWeapons.cs" />
@@ -77,12 +79,13 @@
     <Compile Include="Assets\Scripts\EnemySpawn.cs" />
     <Compile Include="Assets\Scripts\PickableSpecialWeapon.cs" />
     <Compile Include="Assets\Scripts\SelectMenu.cs" />
+    <Compile Include="Assets\Scripts\Credits.cs" />
     <Compile Include="Assets\Scripts\Weapon.cs" />
     <Compile Include="Assets\Scripts\Axe.cs" />
     <Compile Include="Assets\Scripts\BreakableObject.cs" />
     <Compile Include="Assets\Scripts\Projectiles.cs" />
     <Compile Include="Assets\Scripts\UIManager.cs" />
-    <Compile Include="Assets\Scripts\Credits.cs" />
+    <Compile Include="Assets\Scripts\CrowdBreaker.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

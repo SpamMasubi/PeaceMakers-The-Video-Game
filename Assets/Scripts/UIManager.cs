@@ -51,11 +51,14 @@ public class UIManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        enemyTimer += Time.deltaTime;
-        if(enemyTimer >= enemyUITime)
+        if (!Boss.firstBoss && !Stage2Boss.secondBoss && !Stage3Boss.thirdBoss && !Stage4Boss.fourthBoss && !FinalMidBoss.midBoss && !FinalBoss.finalBoss)
         {
-            enemyUI.SetActive(false);
-            enemyTimer = 0;
+            enemyTimer += Time.deltaTime;
+            if (enemyTimer >= enemyUITime)
+            {
+                enemyUI.SetActive(false);
+                enemyTimer = 0;
+            }
         }
     }
 
