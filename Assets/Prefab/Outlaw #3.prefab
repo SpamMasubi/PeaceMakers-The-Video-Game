@@ -211,7 +211,7 @@ MonoBehaviour:
   maxSpeed: 2.5
   minHeight: -7.5
   maxHeight: -1.6
-  damageTime: 1
+  damageTime: 3
   maxHealth: 12
   attackRate: 2
   enemyName: Mask Outlaw
@@ -220,6 +220,9 @@ MonoBehaviour:
   enemyComboed: {fileID: 8300000, guid: 7db237522c4dd084a85574855ef5ddc7, type: 3}
   enemyAttack: {fileID: 8300000, guid: a62cd82d810558141b441f31617db84d, type: 3}
   deathSound: {fileID: 8300000, guid: 32b572ec03acd4946bf9cca9ef1b5587, type: 3}
+  enemyProjectile: {fileID: 0}
+  launchPoint: {fileID: 0}
+  flashLength: 0
 --- !u!82 &4547042324499210014
 AudioSource:
   m_ObjectHideFlags: 0

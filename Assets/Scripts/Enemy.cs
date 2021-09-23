@@ -183,9 +183,11 @@ public class Enemy : MonoBehaviour
                 currentSpeed = 0;
                 anim.SetFloat("Speed", Mathf.Abs(currentSpeed));
             }
-            else
+            else if (Player.hasRespawned)
             {
                 currentSpeed = maxSpeed;
+                anim.SetFloat("Speed", Mathf.Abs(currentSpeed));
+                Player.hasRespawned = false;
             }
 
             if (!damaged && comboCount == 0)
@@ -281,6 +283,6 @@ public class Enemy : MonoBehaviour
     public void invincibleFlash()
     {
         flashActive = true;
-        flashCounter = flashLength + 1.6f;
+        flashCounter = flashLength + 2.0f;
     }
 }

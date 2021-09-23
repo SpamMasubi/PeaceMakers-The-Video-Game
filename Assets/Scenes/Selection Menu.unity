@@ -1010,7 +1010,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71c4b7f2110d2c5438a5ebdc76c0522a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lives: 4
+  lives: 3
   characterIndex: 0
 --- !u!4 &760398423
 Transform:

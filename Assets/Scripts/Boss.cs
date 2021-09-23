@@ -31,7 +31,7 @@ public class Boss : Enemy
     void ThrowAxe()
     {
 
-        if (!isDead && comboCount == 0)
+        if (!isDead)
         {
             anim.SetTrigger("Axe");
             PlayBoss(throwAxe);

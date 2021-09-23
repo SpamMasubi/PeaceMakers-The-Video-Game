@@ -73,7 +73,7 @@ public class FinalBoss : Enemy
 
     void LoadScene()
     {
-        SceneManager.LoadScene(14);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         Stage4Boss.winLevel = false;
         bossDefeated = false;
         winLevel = false;

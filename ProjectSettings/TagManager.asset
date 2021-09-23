@@ -8,6 +8,7 @@ TagManager:
   - Weapon
   - Special Weapon
   - 1-Up Item
+  - NPC
   layers:
   - Default
   - TransparentFX

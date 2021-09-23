@@ -213,7 +213,7 @@ MonoBehaviour:
   maxHeight: -1.6
   damageTime: 1
   maxHealth: 10
-  attackRate: 1.5
+  attackRate: 2
   enemyName: Ares Soldier
   enemyImage: {fileID: 8452814652981992376, guid: 5491f42c5a8300b48a61ec5b08e70fcd, type: 3}
   collisionSound: {fileID: 8300000, guid: a444ad84a0e82404499eec02e3fbfd60, type: 3}
@@ -222,6 +222,7 @@ MonoBehaviour:
   deathSound: {fileID: 8300000, guid: e623fee31732ef84689046d88462140d, type: 3}
   enemyProjectile: {fileID: 0}
   launchPoint: {fileID: 0}
+  flashLength: 0
 --- !u!82 &6752906303701821290
 AudioSource:
   m_ObjectHideFlags: 0

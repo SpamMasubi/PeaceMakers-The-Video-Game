@@ -35,6 +35,7 @@ public class Player : MonoBehaviour
     private bool onGround;
     private bool running;
     public static bool isDead = false;
+    public static bool hasRespawned = false;
     private bool facingRight = true;
     private bool jump = false;
     private AudioSource audioS;
@@ -82,7 +83,7 @@ public class Player : MonoBehaviour
                 playerInAir = true;
             }
 
-            if (Input.GetButtonDown("Fire1") && Input.GetButton("Fire2") && !isCrowdBreaker && !playerInAir)
+            if (Input.GetButtonDown("Fire1") && Input.GetButton("Fire2") && !isCrowdBreaker && !playerInAir && !holdingSpecialWeapon && !holdingWeapon)
             {
                 anim.SetTrigger("CrowdBreaker");
                 PlaySong(crowdBreaker);
@@ -385,6 +386,11 @@ public class Player : MonoBehaviour
                 Destroy(other.gameObject);
             }
         }
+
+        if (other.CompareTag("NPC"))
+        {
+            RinMessage.startDialogue = true;
+        }
     }
 
     void PlayerRespawn()
@@ -395,8 +401,8 @@ public class Player : MonoBehaviour
             flashActive = true;
             flashCounter = flashLength + 1.6f;
             isDead = false;
+            hasRespawned = true;
             notMaxHealth = false;
-            FindObjectOfType<Enemy>().ResetSpeed();
             FindObjectOfType<UIManager>().UpdateLives();
             currentHealth = GameManager.maxHealth;
             FindObjectOfType<UIManager>().healthUpdate(currentHealth);

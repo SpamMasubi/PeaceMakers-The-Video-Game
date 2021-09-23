@@ -37,7 +37,7 @@ public class Attack : MonoBehaviour
 
         if(breakObj != null)
         {
-            breakObj.ObjectBreak(damage);
+           breakObj.ObjectBreak(damage);
         }
     }
 }

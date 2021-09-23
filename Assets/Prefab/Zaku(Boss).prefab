@@ -178,10 +178,10 @@ MonoBehaviour:
   deathSound: {fileID: 8300000, guid: 46f3389c00122444ea0f4c3c870630df, type: 3}
   enemyProjectile: {fileID: 0}
   launchPoint: {fileID: 0}
-  flashLength: 0.4
+  flashLength: 0.5
   axe: {fileID: 5881753953599696399, guid: 245cbeb7b746e0b4cb9f6b348f4e8dc6, type: 3}
-  minAxeTime: 8
-  maxAxeTime: 12
+  minAxeTime: 16
+  maxAxeTime: 20
   bossStart: {fileID: 8300000, guid: df9de38586308fb49a8becdac5938de0, type: 3}
   throwAxe: {fileID: 8300000, guid: 0f6d531aa4581ad40838238cb0594cf0, type: 3}
   masakiVictory: {fileID: 8300000, guid: 49368df827fd3e64d95c01fda864ad46, type: 3}

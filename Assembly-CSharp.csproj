@@ -74,6 +74,7 @@
     <Compile Include="Assets\Scripts\FinalMidBoss.cs" />
     <Compile Include="Assets\Scripts\Stage3Boss.cs" />
     <Compile Include="Assets\Scripts\PickableWeapon.cs" />
+    <Compile Include="Assets\Scripts\CrowdBreaker.cs" />
     <Compile Include="Assets\Scripts\ShootableWeapons.cs" />
     <Compile Include="Assets\Scripts\ChapterIntro.cs" />
     <Compile Include="Assets\Scripts\EnemySpawn.cs" />
@@ -85,7 +86,8 @@
     <Compile Include="Assets\Scripts\BreakableObject.cs" />
     <Compile Include="Assets\Scripts\Projectiles.cs" />
     <Compile Include="Assets\Scripts\UIManager.cs" />
-    <Compile Include="Assets\Scripts\CrowdBreaker.cs" />
+    <Compile Include="Assets\Scripts\Ending.cs" />
+    <Compile Include="Assets\Scripts\RinMessage.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
