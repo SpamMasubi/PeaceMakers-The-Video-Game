@@ -86,8 +86,8 @@
     <Compile Include="Assets\Scripts\BreakableObject.cs" />
     <Compile Include="Assets\Scripts\Projectiles.cs" />
     <Compile Include="Assets\Scripts\UIManager.cs" />
-    <Compile Include="Assets\Scripts\Ending.cs" />
     <Compile Include="Assets\Scripts\RinMessage.cs" />
+    <Compile Include="Assets\Scripts\Ending.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

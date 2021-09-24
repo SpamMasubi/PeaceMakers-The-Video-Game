@@ -26,6 +26,11 @@ public class Menu : MonoBehaviour
             anim.SetBool("Selection", selectionMade);
             Invoke("LoadScene", 1f);
         }
+        else if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            PlaySound();
+            Application.Quit();
+        }
     }
 
     void LoadScene()
