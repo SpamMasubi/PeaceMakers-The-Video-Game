@@ -2,6 +2,8 @@
  2D style Beat'em Up Game on Unity Engine
 This was a solo project
 
+Full Game to play on browser: https://masubi97.itch.io/peacemakers-the-video-game
+
 Full Game for Mac and Windows Download Link: https://drive.google.com/drive/folders/15UxKgn4LM56IJj6uAZDCYd5eSJAawKaD
 
 Tutorial used to prototype the game: https://youtube.com/playlist?list=PLgTmU6kuSLtzpYOPdk7o0wjwioYqwVibE
