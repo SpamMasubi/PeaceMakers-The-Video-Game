@@ -28,7 +28,7 @@ public class FinalBoss : Enemy
 
     void SpecialAttack()
     {
-        if (!isDead && comboCount == 0)
+        if (!isDead)
         {
             anim.SetTrigger("Special");
             PlayBoss(specialAttackSound);
@@ -78,6 +78,7 @@ public class FinalBoss : Enemy
         bossDefeated = false;
         winLevel = false;
         Destroy(FindObjectOfType<UIManager>().gameObject);
+        Destroy(FindObjectOfType<MusicController>().gameObject);
     }
 
     public void PlayBoss(AudioClip clip)

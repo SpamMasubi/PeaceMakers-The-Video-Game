@@ -16,10 +16,14 @@ public class Player : MonoBehaviour
     public GameObject playerProjectile;
     public Transform launchPoint;
 
-    public float flashLength;
-    private bool flashActive;
-    private float flashCounter;
+    [Header("Invincibility Flash")]
+    public Color flashColor;
+    public Color regularColor;
+    public float flashDuration;
+    public int numberOfFlashes;
+    public static bool isInvincible;
     private SpriteRenderer playerSprite;
+
     private bool isCrowdBreaker = false;
     private bool isAttack = false;
     private bool takenDamaged = false;
@@ -75,9 +79,9 @@ public class Player : MonoBehaviour
         anim.SetBool("Weapon", holdingWeapon);
         anim.SetBool("SpecialWeapon", holdingSpecialWeapon);
 
-        if (!isDead && !comboDamaged && !takenDamaged && !Boss.bossDefeated && !Stage2Boss.bossDefeated && !Stage3Boss.bossDefeated && !Stage4Boss.bossDefeated && !FinalBoss.bossDefeated)
+        if (!isDead && !comboDamaged && !takenDamaged && !Boss.bossDefeated && !Stage2Boss.bossDefeated && !Stage3Boss.bossDefeated && !Stage4Boss.bossDefeated && !FinalBoss.bossDefeated && !PauseMenu.GameIsPaused)
         {
-            if (Input.GetButtonDown("Jump") && onGround && !isCrowdBreaker && !isAttack)
+            if (Input.GetButtonDown("Jump") && onGround && !isCrowdBreaker)
             {
                 jump = true;
                 playerInAir = true;
@@ -98,81 +102,15 @@ public class Player : MonoBehaviour
                     PlaySong(attackYell);
                 }
             }
-            
-        }
 
-        if (flashActive)
-        {
-            if (flashCounter > flashLength * 4.95f)
+            if (Input.GetButtonDown("Fire3"))
             {
-                playerSprite.color = new Color(playerSprite.color.r, playerSprite.color.g, playerSprite.color.b, 1f);
+                running = true;
             }
-            else if (flashCounter > flashLength * 4.62f)
+            else if (Input.GetButtonUp("Fire3"))
             {
-                playerSprite.color = new Color(playerSprite.color.r, playerSprite.color.g, playerSprite.color.b, 0f);
+                running = false;
             }
-            else if (flashCounter > flashLength * 4.29f)
-            {
-                playerSprite.color = new Color(playerSprite.color.r, playerSprite.color.g, playerSprite.color.b, 1f);
-            }
-            else if (flashCounter > flashLength * 3.96f)
-            {
-                playerSprite.color = new Color(playerSprite.color.r, playerSprite.color.g, playerSprite.color.b, 0f);
-            }
-            else if (flashCounter > flashLength * 3.63f)
-            {
-                playerSprite.color = new Color(playerSprite.color.r, playerSprite.color.g, playerSprite.color.b, 1f);
-            }
-            else if (flashCounter > flashLength * 3.30f)
-            {
-                playerSprite.color = new Color(playerSprite.color.r, playerSprite.color.g, playerSprite.color.b, 0f);
-            }
-            else if (flashCounter > flashLength * 2.97f)
-            {
-                playerSprite.color = new Color(playerSprite.color.r, playerSprite.color.g, playerSprite.color.b, 1f);
-            }
-            else if (flashCounter > flashLength * 2.64f)
-            {
-                playerSprite.color = new Color(playerSprite.color.r, playerSprite.color.g, playerSprite.color.b, 0f);
-            }
-            else if (flashCounter > flashLength * 2.31f)
-            {
-                playerSprite.color = new Color(playerSprite.color.r, playerSprite.color.g, playerSprite.color.b, 1f);
-            }
-            else if (flashCounter > flashLength * 1.98f)
-            {
-                playerSprite.color = new Color(playerSprite.color.r, playerSprite.color.g, playerSprite.color.b, 0f);
-            }
-            else if (flashCounter > flashLength * 1.65f)
-            {
-                playerSprite.color = new Color(playerSprite.color.r, playerSprite.color.g, playerSprite.color.b, 1f);
-            }
-            else if (flashCounter > flashLength * 1.32f)
-            {
-                playerSprite.color = new Color(playerSprite.color.r, playerSprite.color.g, playerSprite.color.b, 0f);
-            }
-            else if (flashCounter > flashLength * 0.99f)
-            {
-                playerSprite.color = new Color(playerSprite.color.r, playerSprite.color.g, playerSprite.color.b, 1f);
-            }
-            else if (flashCounter > flashLength * 0.66f)
-            {
-                playerSprite.color = new Color(playerSprite.color.r, playerSprite.color.g, playerSprite.color.b, 0f);
-            }
-            else if (flashCounter > flashLength * 0.33f)
-            {
-                playerSprite.color = new Color(playerSprite.color.r, playerSprite.color.g, playerSprite.color.b, 1f);
-            }
-            else if (flashCounter > 0.0f)
-            {
-                playerSprite.color = new Color(playerSprite.color.r, playerSprite.color.g, playerSprite.color.b, 0f);
-            }
-            else
-            {
-                playerSprite.color = new Color(playerSprite.color.r, playerSprite.color.g, playerSprite.color.b, 1f);
-                flashActive = false;
-            }
-            flashCounter -= Time.deltaTime;
         }
 
         if (Boss.bossDefeated || Stage2Boss.bossDefeated || Stage3Boss.bossDefeated || Stage4Boss.bossDefeated || FinalBoss.bossDefeated)
@@ -197,15 +135,9 @@ public class Player : MonoBehaviour
                 y = 0;
             }
 
-            if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
-            {
-                running = true;
-            }
-
             if (running) {
                 rb.velocity = new Vector3(h * (currentSpeed * 2.0f), rb.velocity.y, y * (currentSpeed * 2.0f));
                 anim.SetBool("Run", running);
-                running = false;
             }
             else
             {
@@ -263,10 +195,26 @@ public class Player : MonoBehaviour
         playerInAir = false;
     }
 
+    private IEnumerator InvincibilityFlash()
+    {
+        int temp = 0;
+        isInvincible = true;
+        while (temp < numberOfFlashes)
+        {
+            playerSprite.color = flashColor;
+            yield return new WaitForSeconds(flashDuration);
+            playerSprite.color = regularColor;
+            yield return new WaitForSeconds(flashDuration);
+            temp++;
+        }
+        isInvincible = false;
+    }
+
     public void TookDamage(int damage)
     {
-        if (!isDead && !comboDamaged && !flashActive)
+        if (!isDead && !comboDamaged && !isInvincible)
         {
+            running = false;
             takenDamaged = true;
             currentHealth -= damage;
             notMaxHealth = true;
@@ -293,7 +241,8 @@ public class Player : MonoBehaviour
                 PlaySong(playerDead);
                 isDead = true;
                 FindObjectOfType<GameManager>().lives--;
-                
+                FindObjectOfType<UIManager>().UpdateLives();
+
                 if (facingRight)
                 {
                     rb.AddForce(new Vector3(-3, 5, 0), ForceMode.Impulse);
@@ -398,12 +347,10 @@ public class Player : MonoBehaviour
         if (FindObjectOfType<GameManager>().lives > 0)
         {
             PlaySong(playerRespawnSound);
-            flashActive = true;
-            flashCounter = flashLength + 1.6f;
+            StartCoroutine(InvincibilityFlash());
             isDead = false;
             hasRespawned = true;
             notMaxHealth = false;
-            FindObjectOfType<UIManager>().UpdateLives();
             currentHealth = GameManager.maxHealth;
             FindObjectOfType<UIManager>().healthUpdate(currentHealth);
             anim.Rebind();
@@ -438,6 +385,7 @@ public class Player : MonoBehaviour
     void LoadScene()
     {
         Destroy(FindObjectOfType<UIManager>().gameObject);
+        Destroy(FindObjectOfType<MusicController>().gameObject);
         SceneManager.LoadScene(2);
         isDead = false;
     }

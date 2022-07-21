@@ -19,14 +19,14 @@ public class Menu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Return))
+        if (Input.GetButtonDown("Submit"))
         {
             PlaySound();
             selectionMade = true;
             anim.SetBool("Selection", selectionMade);
             Invoke("LoadScene", 1f);
         }
-        else if (Input.GetKeyDown(KeyCode.Escape))
+        else if (Input.GetButtonDown("Cancel"))
         {
             PlaySound();
             Application.Quit();

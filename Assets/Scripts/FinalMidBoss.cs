@@ -25,7 +25,7 @@ public class FinalMidBoss : Enemy
 
     void SpecialAttack()
     {
-        if (!isDead && comboCount == 0)
+        if (!isDead)
         {
             anim.SetTrigger("Special");
             PlayBoss(specialAttackSound);

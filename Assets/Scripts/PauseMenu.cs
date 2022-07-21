@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
     public static bool GameIsPaused = false;
+    public GameObject resumeButton;
 
     public GameObject pauseMenuUI;
     public AudioClip buttonHover, buttonClick;
@@ -19,15 +21,18 @@ public class PauseMenu : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (!Boss.bossDefeated || !Stage2Boss.bossDefeated || !Stage3Boss.bossDefeated || !Stage4Boss.bossDefeated || !FinalBoss.bossDefeated)
         {
-            if (GameIsPaused)
+            if (Input.GetButtonDown("Submit"))
             {
-                Resume();
-            }
-            else
-            {
-                Pause();
+                if (GameIsPaused)
+                {
+                    Resume();
+                }
+                else
+                {
+                    Pause();
+                }
             }
         }
     }
@@ -43,6 +48,10 @@ public class PauseMenu : MonoBehaviour
         pauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
         GameIsPaused = true;
+        //Clear selected object
+        EventSystem.current.SetSelectedGameObject(null);
+        //set a new selected object
+        EventSystem.current.SetSelectedGameObject(resumeButton);
     }
 
     public void ClickContinue()
@@ -53,7 +62,6 @@ public class PauseMenu : MonoBehaviour
 
     public void ContinueGame()
     {
-        Time.timeScale = 1f;
         Resume();
     }
 
@@ -62,6 +70,7 @@ public class PauseMenu : MonoBehaviour
         PlaySong(buttonClick);
         Destroy(FindObjectOfType<GameManager>().gameObject);
         Destroy(FindObjectOfType<UIManager>().gameObject);
+        Destroy(FindObjectOfType<MusicController>().gameObject);
         GameIsPaused = false;
         Time.timeScale = 1f;
         SceneManager.LoadScene(1);

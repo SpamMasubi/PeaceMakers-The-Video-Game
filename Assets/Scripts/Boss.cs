@@ -30,7 +30,6 @@ public class Boss : Enemy
 
     void ThrowAxe()
     {
-
         if (!isDead)
         {
             anim.SetTrigger("Axe");
@@ -81,7 +80,7 @@ public class Boss : Enemy
         SceneManager.LoadScene(3);
         bossDefeated = false;
         Destroy(FindObjectOfType<UIManager>().gameObject);
-        //Destroy(gameObject);
+        Destroy(FindObjectOfType<MusicController>().gameObject);
     }
 
     public void PlayBoss(AudioClip clip)

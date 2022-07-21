@@ -546,6 +546,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
+    - Class: 134
+      Script: {instanceID: 0}
     - Class: 136
       Script: {instanceID: 0}
     - Class: 157
@@ -626,8 +628,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2474}
     - Class: 114
-      Script: {instanceID: 2574}
-    - Class: 114
       Script: {instanceID: 2618}
     - Class: 114
       Script: {instanceID: 2792}
@@ -666,6 +666,8 @@ ScriptsOnlyBuild:
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
+      Script: {instanceID: 0}
+    - Class: 134
       Script: {instanceID: 0}
     - Class: 136
       Script: {instanceID: 0}
@@ -723,39 +725,17 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1440}
-    - Class: 114
-      Script: {instanceID: 1442}
-    - Class: 114
       Script: {instanceID: 1494}
-    - Class: 114
-      Script: {instanceID: 1502}
-    - Class: 114
-      Script: {instanceID: 1664}
     - Class: 114
       Script: {instanceID: 1736}
     - Class: 114
       Script: {instanceID: 1762}
     - Class: 114
-      Script: {instanceID: 1774}
-    - Class: 114
       Script: {instanceID: 1788}
     - Class: 114
       Script: {instanceID: 2024}
     - Class: 114
-      Script: {instanceID: 2094}
-    - Class: 114
-      Script: {instanceID: 2466}
-    - Class: 114
-      Script: {instanceID: 2474}
-    - Class: 114
-      Script: {instanceID: 2574}
-    - Class: 114
       Script: {instanceID: 2618}
-    - Class: 114
-      Script: {instanceID: 2792}
-    - Class: 114
-      Script: {instanceID: 2816}
     - Class: 114
       Script: {instanceID: 3004}
     - Class: 114
@@ -768,8 +748,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3492}
     - Class: 114
       Script: {instanceID: 3620}
-    - Class: 114
-      Script: {instanceID: 3764}
     - Class: 114
       Script: {instanceID: 4000}
     - Class: 114
@@ -786,11 +764,9 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4678}
     - Class: 114
       Script: {instanceID: 4700}
-    - Class: 114
-      Script: {instanceID: 4916}
     - Class: 115
       Script: {instanceID: 0}
-    - Class: 128
+    - Class: 134
       Script: {instanceID: 0}
     - Class: 136
       Script: {instanceID: 0}
@@ -801,12 +777,6 @@ ScriptsOnlyBuild:
     - Class: 212
       Script: {instanceID: 0}
     - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
       Script: {instanceID: 0}
     Assets/Scenes/Stage 3-1.unity:
     - Class: 1
@@ -872,8 +842,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2474}
     - Class: 114
-      Script: {instanceID: 2574}
-    - Class: 114
       Script: {instanceID: 2618}
     - Class: 114
       Script: {instanceID: 2792}
@@ -912,6 +880,8 @@ ScriptsOnlyBuild:
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
+      Script: {instanceID: 0}
+    - Class: 134
       Script: {instanceID: 0}
     - Class: 136
       Script: {instanceID: 0}
@@ -969,39 +939,17 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1440}
-    - Class: 114
-      Script: {instanceID: 1442}
-    - Class: 114
       Script: {instanceID: 1494}
-    - Class: 114
-      Script: {instanceID: 1502}
-    - Class: 114
-      Script: {instanceID: 1664}
     - Class: 114
       Script: {instanceID: 1736}
     - Class: 114
       Script: {instanceID: 1762}
     - Class: 114
-      Script: {instanceID: 1774}
-    - Class: 114
       Script: {instanceID: 1788}
     - Class: 114
       Script: {instanceID: 2024}
     - Class: 114
-      Script: {instanceID: 2094}
-    - Class: 114
-      Script: {instanceID: 2466}
-    - Class: 114
-      Script: {instanceID: 2474}
-    - Class: 114
-      Script: {instanceID: 2574}
-    - Class: 114
       Script: {instanceID: 2618}
-    - Class: 114
-      Script: {instanceID: 2792}
-    - Class: 114
-      Script: {instanceID: 2816}
     - Class: 114
       Script: {instanceID: 3004}
     - Class: 114
@@ -1012,8 +960,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3492}
     - Class: 114
       Script: {instanceID: 3620}
-    - Class: 114
-      Script: {instanceID: 3764}
     - Class: 114
       Script: {instanceID: 3928}
     - Class: 114
@@ -1032,11 +978,9 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4678}
     - Class: 114
       Script: {instanceID: 4700}
-    - Class: 114
-      Script: {instanceID: 4916}
     - Class: 115
       Script: {instanceID: 0}
-    - Class: 128
+    - Class: 134
       Script: {instanceID: 0}
     - Class: 136
       Script: {instanceID: 0}
@@ -1047,12 +991,6 @@ ScriptsOnlyBuild:
     - Class: 212
       Script: {instanceID: 0}
     - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
       Script: {instanceID: 0}
     Assets/Scenes/Stage 4-1.unity:
     - Class: 1
@@ -1118,8 +1056,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2474}
     - Class: 114
-      Script: {instanceID: 2574}
-    - Class: 114
       Script: {instanceID: 2618}
     - Class: 114
       Script: {instanceID: 2792}
@@ -1158,6 +1094,8 @@ ScriptsOnlyBuild:
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
+      Script: {instanceID: 0}
+    - Class: 134
       Script: {instanceID: 0}
     - Class: 136
       Script: {instanceID: 0}
@@ -1215,41 +1153,19 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1440}
-    - Class: 114
-      Script: {instanceID: 1442}
-    - Class: 114
       Script: {instanceID: 1494}
-    - Class: 114
-      Script: {instanceID: 1502}
-    - Class: 114
-      Script: {instanceID: 1664}
     - Class: 114
       Script: {instanceID: 1736}
     - Class: 114
       Script: {instanceID: 1762}
     - Class: 114
-      Script: {instanceID: 1774}
-    - Class: 114
       Script: {instanceID: 1788}
     - Class: 114
       Script: {instanceID: 2024}
     - Class: 114
-      Script: {instanceID: 2094}
-    - Class: 114
-      Script: {instanceID: 2466}
-    - Class: 114
-      Script: {instanceID: 2474}
-    - Class: 114
-      Script: {instanceID: 2574}
-    - Class: 114
       Script: {instanceID: 2598}
     - Class: 114
       Script: {instanceID: 2618}
-    - Class: 114
-      Script: {instanceID: 2792}
-    - Class: 114
-      Script: {instanceID: 2816}
     - Class: 114
       Script: {instanceID: 3004}
     - Class: 114
@@ -1260,8 +1176,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3492}
     - Class: 114
       Script: {instanceID: 3620}
-    - Class: 114
-      Script: {instanceID: 3764}
     - Class: 114
       Script: {instanceID: 4000}
     - Class: 114
@@ -1278,11 +1192,9 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4678}
     - Class: 114
       Script: {instanceID: 4700}
-    - Class: 114
-      Script: {instanceID: 4916}
     - Class: 115
       Script: {instanceID: 0}
-    - Class: 128
+    - Class: 134
       Script: {instanceID: 0}
     - Class: 136
       Script: {instanceID: 0}
@@ -1293,12 +1205,6 @@ ScriptsOnlyBuild:
     - Class: 212
       Script: {instanceID: 0}
     - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
       Script: {instanceID: 0}
     Assets/Scenes/Stage 5-1.unity:
     - Class: 1
@@ -1364,8 +1270,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2474}
     - Class: 114
-      Script: {instanceID: 2574}
-    - Class: 114
       Script: {instanceID: 2618}
     - Class: 114
       Script: {instanceID: 2792}
@@ -1406,6 +1310,8 @@ ScriptsOnlyBuild:
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
+      Script: {instanceID: 0}
+    - Class: 134
       Script: {instanceID: 0}
     - Class: 136
       Script: {instanceID: 0}
@@ -1463,37 +1369,15 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1440}
-    - Class: 114
-      Script: {instanceID: 1442}
-    - Class: 114
       Script: {instanceID: 1494}
-    - Class: 114
-      Script: {instanceID: 1502}
-    - Class: 114
-      Script: {instanceID: 1664}
     - Class: 114
       Script: {instanceID: 1736}
     - Class: 114
       Script: {instanceID: 1762}
     - Class: 114
-      Script: {instanceID: 1774}
-    - Class: 114
       Script: {instanceID: 2024}
     - Class: 114
-      Script: {instanceID: 2094}
-    - Class: 114
-      Script: {instanceID: 2466}
-    - Class: 114
-      Script: {instanceID: 2474}
-    - Class: 114
-      Script: {instanceID: 2574}
-    - Class: 114
       Script: {instanceID: 2618}
-    - Class: 114
-      Script: {instanceID: 2792}
-    - Class: 114
-      Script: {instanceID: 2816}
     - Class: 114
       Script: {instanceID: 3004}
     - Class: 114
@@ -1506,8 +1390,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3620}
     - Class: 114
       Script: {instanceID: 3682}
-    - Class: 114
-      Script: {instanceID: 3764}
     - Class: 114
       Script: {instanceID: 4000}
     - Class: 114
@@ -1524,11 +1406,9 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4678}
     - Class: 114
       Script: {instanceID: 4700}
-    - Class: 114
-      Script: {instanceID: 4916}
     - Class: 115
       Script: {instanceID: 0}
-    - Class: 128
+    - Class: 134
       Script: {instanceID: 0}
     - Class: 136
       Script: {instanceID: 0}
@@ -1539,12 +1419,6 @@ ScriptsOnlyBuild:
     - Class: 212
       Script: {instanceID: 0}
     - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
       Script: {instanceID: 0}
     Assets/Scenes/Stage 5-3.unity:
     - Class: 1
@@ -1586,35 +1460,15 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1440}
-    - Class: 114
-      Script: {instanceID: 1442}
-    - Class: 114
       Script: {instanceID: 1494}
-    - Class: 114
-      Script: {instanceID: 1502}
-    - Class: 114
-      Script: {instanceID: 1664}
     - Class: 114
       Script: {instanceID: 1736}
     - Class: 114
       Script: {instanceID: 1762}
     - Class: 114
-      Script: {instanceID: 1774}
-    - Class: 114
       Script: {instanceID: 2024}
     - Class: 114
-      Script: {instanceID: 2094}
-    - Class: 114
-      Script: {instanceID: 2466}
-    - Class: 114
-      Script: {instanceID: 2474}
-    - Class: 114
-      Script: {instanceID: 2574}
-    - Class: 114
       Script: {instanceID: 2618}
-    - Class: 114
-      Script: {instanceID: 2792}
     - Class: 114
       Script: {instanceID: 2816}
     - Class: 114
@@ -1627,8 +1481,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3492}
     - Class: 114
       Script: {instanceID: 3620}
-    - Class: 114
-      Script: {instanceID: 3764}
     - Class: 114
       Script: {instanceID: 4014}
     - Class: 114
@@ -1643,11 +1495,9 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4678}
     - Class: 114
       Script: {instanceID: 4700}
-    - Class: 114
-      Script: {instanceID: 4916}
     - Class: 115
       Script: {instanceID: 0}
-    - Class: 128
+    - Class: 134
       Script: {instanceID: 0}
     - Class: 136
       Script: {instanceID: 0}
@@ -1658,12 +1508,6 @@ ScriptsOnlyBuild:
     - Class: 212
       Script: {instanceID: 0}
     - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -1686,7 +1530,7 @@ ScriptsOnlyBuild:
     className: AnimationPlayableAsset
   - hash:
       serializedVersion: 2
-      Hash: b8c7e9af4bed36cf2fa486f0719c7ef3
+      Hash: 002e7b9014dc6b2b9c2636eb59e20aa7
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Player
@@ -1704,7 +1548,7 @@ ScriptsOnlyBuild:
     className: TMP_InputField
   - hash:
       serializedVersion: 2
-      Hash: 422cc06f9017e617fccea1293f8b1a70
+      Hash: e173fc19775c29d95dd007a67d4884b7
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Boss
@@ -1770,7 +1614,7 @@ ScriptsOnlyBuild:
     className: DestroyByTime
   - hash:
       serializedVersion: 2
-      Hash: cb200cf570c4cce5f543588f07e4742c
+      Hash: 0235c09a53227eead462d9aa76d8eafe
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Enemy
@@ -1884,7 +1728,7 @@ ScriptsOnlyBuild:
     className: CanvasScaler
   - hash:
       serializedVersion: 2
-      Hash: 553d848f54c701e75c190e5f0a0e41a7
+      Hash: 94b74732f8ea3ccd4f46af23ec143cae
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PauseMenu
@@ -1902,7 +1746,7 @@ ScriptsOnlyBuild:
     className: AspectRatioFitter
   - hash:
       serializedVersion: 2
-      Hash: 3ab110c2a7e73f47177250e4731582fd
+      Hash: 7fe2ed7f7a596b23070d9b473f29207e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Stage4Boss
@@ -2082,7 +1926,7 @@ ScriptsOnlyBuild:
     className: ContentSizeFitter
   - hash:
       serializedVersion: 2
-      Hash: 3ab110c2a7e73f47177250e4731582fd
+      Hash: 7fe2ed7f7a596b23070d9b473f29207e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Stage2Boss
@@ -2118,7 +1962,7 @@ ScriptsOnlyBuild:
     className: PlayerQuitHandler
   - hash:
       serializedVersion: 2
-      Hash: 6488eb05a66ca3b29e003f4cdda82431
+      Hash: f3465160a2e22108d5da7e068c617667
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: FinalBoss
@@ -2172,7 +2016,7 @@ ScriptsOnlyBuild:
     className: Attack
   - hash:
       serializedVersion: 2
-      Hash: 872927263e5d0188589c77da5e1515f1
+      Hash: 2857ca680fe15b3db6e681c658e19db4
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: FinalMidBoss
@@ -2226,7 +2070,7 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
-      Hash: 3ab110c2a7e73f47177250e4731582fd
+      Hash: 7fe2ed7f7a596b23070d9b473f29207e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Stage3Boss

@@ -16,9 +16,12 @@ public class Enemy : MonoBehaviour
     public GameObject enemyProjectile;
     public Transform launchPoint;
 
-    public float flashLength;
-    private bool flashActive;
-    private float flashCounter;
+    [Header("Invincibility Flash")]
+    public Color flashColor;
+    public Color regularColor;
+    public float flashDuration;
+    public int numberOfFlashes;
+    public static bool isInvincible;
     private SpriteRenderer enemySprite;
 
     private bool comboDamaged = false;
@@ -83,80 +86,6 @@ public class Enemy : MonoBehaviour
         }
 
         walkTimer += Time.deltaTime;
-
-        if (flashActive)
-        {
-            if (flashCounter > flashLength * 4.95f)
-            {
-                enemySprite.color = new Color(enemySprite.color.r, enemySprite.color.g, enemySprite.color.b, 1f);
-            }
-            else if (flashCounter > flashLength * 4.62f)
-            {
-                enemySprite.color = new Color(enemySprite.color.r, enemySprite.color.g, enemySprite.color.b, 0f);
-            }
-            else if (flashCounter > flashLength * 4.29f)
-            {
-                enemySprite.color = new Color(enemySprite.color.r, enemySprite.color.g, enemySprite.color.b, 1f);
-            }
-            else if (flashCounter > flashLength * 3.96f)
-            {
-                enemySprite.color = new Color(enemySprite.color.r, enemySprite.color.g, enemySprite.color.b, 0f);
-            }
-            else if (flashCounter > flashLength * 3.63f)
-            {
-                enemySprite.color = new Color(enemySprite.color.r, enemySprite.color.g, enemySprite.color.b, 1f);
-            }
-            else if (flashCounter > flashLength * 3.30f)
-            {
-                enemySprite.color = new Color(enemySprite.color.r, enemySprite.color.g, enemySprite.color.b, 0f);
-            }
-            else if (flashCounter > flashLength * 2.97f)
-            {
-                enemySprite.color = new Color(enemySprite.color.r, enemySprite.color.g, enemySprite.color.b, 1f);
-            }
-            else if (flashCounter > flashLength * 2.64f)
-            {
-                enemySprite.color = new Color(enemySprite.color.r, enemySprite.color.g, enemySprite.color.b, 0f);
-            }
-            else if (flashCounter > flashLength * 2.31f)
-            {
-                enemySprite.color = new Color(enemySprite.color.r, enemySprite.color.g, enemySprite.color.b, 1f);
-            }
-            else if (flashCounter > flashLength * 1.98f)
-            {
-                enemySprite.color = new Color(enemySprite.color.r, enemySprite.color.g, enemySprite.color.b, 0f);
-            }
-            else if (flashCounter > flashLength * 1.65f)
-            {
-                enemySprite.color = new Color(enemySprite.color.r, enemySprite.color.g, enemySprite.color.b, 1f);
-            }
-            else if (flashCounter > flashLength * 1.32f)
-            {
-                enemySprite.color = new Color(enemySprite.color.r, enemySprite.color.g, enemySprite.color.b, 0f);
-            }
-            else if (flashCounter > flashLength * 0.99f)
-            {
-                enemySprite.color = new Color(enemySprite.color.r, enemySprite.color.g, enemySprite.color.b, 1f);
-            }
-            else if (flashCounter > flashLength * 0.66f)
-            {
-                enemySprite.color = new Color(enemySprite.color.r, enemySprite.color.g, enemySprite.color.b, 0f);
-            }
-            else if (flashCounter > flashLength * 0.33f)
-            {
-                enemySprite.color = new Color(enemySprite.color.r, enemySprite.color.g, enemySprite.color.b, 1f);
-            }
-            else if (flashCounter > 0.0f)
-            {
-                enemySprite.color = new Color(enemySprite.color.r, enemySprite.color.g, enemySprite.color.b, 0f);
-            }
-            else
-            {
-                enemySprite.color = new Color(enemySprite.color.r, enemySprite.color.g, enemySprite.color.b, 1f);
-                flashActive = false;
-            }
-            flashCounter -= Time.deltaTime;
-        }
         
     }
 
@@ -205,16 +134,31 @@ public class Enemy : MonoBehaviour
                 }
             }
         }
-
-        
-
         rb.position = new Vector3(rb.position.x, rb.position.y, Mathf.Clamp(rb.position.z, minHeight, maxHeight));
+    }
 
+    public void StartInvincibility()
+    {
+        StartCoroutine(InvincibilityFlash());
+    }
+    private IEnumerator InvincibilityFlash()
+    {
+        int temp = 0;
+        isInvincible = true;
+        while (temp < numberOfFlashes)
+        {
+            enemySprite.color = flashColor;
+            yield return new WaitForSeconds(flashDuration);
+            enemySprite.color = regularColor;
+            yield return new WaitForSeconds(flashDuration);
+            temp++;
+        }
+        isInvincible = false;
     }
 
     public void TookDamage(int damage)
     {
-        if (!isDead && !comboDamaged && !flashActive)
+        if (!isDead && !comboDamaged && !isInvincible)
         {
             damaged = true;
             currentHealth -= damage;
@@ -264,6 +208,7 @@ public class Enemy : MonoBehaviour
         {
             FindObjectOfType<UIManager>().enemyUI.SetActive(false);
             FinalMidBoss.midBoss = false;
+            Destroy(FindObjectOfType<MusicController>().gameObject);
         }
         Destroy(gameObject);
     }
@@ -278,11 +223,5 @@ public class Enemy : MonoBehaviour
     {
         audioS.clip = clip;
         audioS.Play();
-    }
-
-    public void invincibleFlash()
-    {
-        flashActive = true;
-        flashCounter = flashLength + 2.0f;
     }
 }

@@ -9,6 +9,8 @@ public class SelectMenu : MonoBehaviour
     public Image masakiImage, dyanaImage, kammyImage, alecImage;
     public Animator masakiAnim, dyanaAnim, kammyAnim, alecAnim;
 
+    bool isMoving;
+
     private Color defaultColor;
     private int characterIndex;
     private AudioSource audioS;
@@ -29,15 +31,15 @@ public class SelectMenu : MonoBehaviour
     {
         if (!charSelect)
         {
-            if (Input.GetKeyDown(KeyCode.LeftArrow) && characterIndex > 1)
+            float selectionAxis = Input.GetAxis("Horizontal");
+
+            if (selectionAxis < 0)
             {
-                characterIndex -= 1;
-                PlaySound();
+                MoveSelection("left");
             }
-            else if (Input.GetKeyDown(KeyCode.RightArrow) && characterIndex < 4)
+            else if (selectionAxis > 0)
             {
-                characterIndex += 1;
-                PlaySound();
+                MoveSelection("right");
             }
 
             if (characterIndex == 1)
@@ -85,7 +87,7 @@ public class SelectMenu : MonoBehaviour
                 alecAnim.SetBool("Attack", true);
             }
 
-            if (Input.GetKeyDown(KeyCode.Return))
+            if (Input.GetButtonDown("Submit") || Input.GetButtonDown("Jump"))
             {
                 charSelect = true;
                 FindObjectOfType<GameManager>().characterIndex = characterIndex;
@@ -112,11 +114,43 @@ public class SelectMenu : MonoBehaviour
                 Invoke("LoadScene", 2f);
             }
 
-            if (Input.GetButtonDown("Fire2")){
+            if (Input.GetButtonDown("Fire1")){
                 SceneManager.LoadScene(1);
                 Destroy(FindObjectOfType<GameManager>().gameObject);
             }
         }
+    }
+
+    void MoveSelection(string direction)
+    {
+        if (!isMoving)
+        {
+            isMoving = true;
+            PlaySound();
+            if (direction == "right")
+            {
+                characterIndex += 1;
+                if (characterIndex > 4)
+                {
+                    characterIndex = 1;
+                }
+            }
+            else if (direction == "left")
+            {
+                characterIndex -= 1;
+                if (characterIndex < 1)
+                {
+                    characterIndex = 4;
+                }
+            }
+
+            Invoke("ResetMove", 0.3f);
+        }
+    }
+
+    void ResetMove()
+    {
+        isMoving = false;
     }
     void PlaySound()
     {

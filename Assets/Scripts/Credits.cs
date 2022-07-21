@@ -16,7 +16,7 @@ public class Credits : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Return))
+        if (Input.GetButtonDown("Submit"))
         {
             PlaySound();
             Invoke("LoadScene", 1f);

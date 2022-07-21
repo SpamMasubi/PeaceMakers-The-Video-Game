@@ -870,14 +870,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Input_GetButtonUp();
 		Register_UnityEngine_Input_GetButtonUp();
 
-		//System.Boolean UnityEngine.Input::GetKeyDownInt(UnityEngine.KeyCode)
-		void Register_UnityEngine_Input_GetKeyDownInt();
-		Register_UnityEngine_Input_GetKeyDownInt();
-
-		//System.Boolean UnityEngine.Input::GetKeyDownString(System.String)
-		void Register_UnityEngine_Input_GetKeyDownString();
-		Register_UnityEngine_Input_GetKeyDownString();
-
 		//System.Boolean UnityEngine.Input::GetKeyInt(UnityEngine.KeyCode)
 		void Register_UnityEngine_Input_GetKeyInt();
 		Register_UnityEngine_Input_GetKeyInt();
@@ -1809,10 +1801,6 @@ void RegisterAllStrippedInternalCalls()
 	//End Registrations for type : UnityEngine.Sprite
 
 	//Start Registrations for type : UnityEngine.SpriteRenderer
-
-		//System.Void UnityEngine.SpriteRenderer::get_color_Injected(UnityEngine.Color&)
-		void Register_UnityEngine_SpriteRenderer_get_color_Injected();
-		Register_UnityEngine_SpriteRenderer_get_color_Injected();
 
 		//System.Void UnityEngine.SpriteRenderer::set_color_Injected(UnityEngine.Color&)
 		void Register_UnityEngine_SpriteRenderer_set_color_Injected();

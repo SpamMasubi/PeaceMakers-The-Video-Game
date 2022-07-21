@@ -127,7 +127,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8542380029562757349}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 3313394974030264e91aaba893e4129f, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.425025
@@ -195,7 +195,10 @@ MonoBehaviour:
   deathSound: {fileID: 8300000, guid: fa611401367b0ce49b143cb192aa80eb, type: 3}
   enemyProjectile: {fileID: 494150127936906497, guid: ed836eac7ebfc4443a2f7d0dd32d1478, type: 3}
   launchPoint: {fileID: 766442150947687410}
-  flashLength: 0.5
+  flashColor: {r: 1, g: 1, b: 1, a: 0}
+  regularColor: {r: 1, g: 1, b: 1, a: 1}
+  flashDuration: 0.1
+  numberOfFlashes: 20
   minSpecialTime: 16
   maxSpecialTime: 20
   bossStart: {fileID: 8300000, guid: 51c2a71c8a0b9c94197717c9d730ee20, type: 3}

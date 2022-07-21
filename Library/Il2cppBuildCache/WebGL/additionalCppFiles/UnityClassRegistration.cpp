@@ -198,7 +198,7 @@ class Motion; template <> void RegisterUnityClass<Motion>(const char*);
 class AnimationClip; template <> void RegisterUnityClass<AnimationClip>(const char*);
 class NavMeshData; 
 class OcclusionCullingData; 
-class PhysicMaterial; 
+class PhysicMaterial; template <> void RegisterUnityClass<PhysicMaterial>(const char*);
 class PhysicsMaterial2D; 
 class PreloadData; template <> void RegisterUnityClass<PreloadData>(const char*);
 class RayTracingShader; 
@@ -278,7 +278,7 @@ void RegisterAllClasses()
 {
 void RegisterBuiltinTypes();
 RegisterBuiltinTypes();
-	//Total: 76 non stripped classes
+	//Total: 77 non stripped classes
 	//0. AnimationClip
 	RegisterUnityClass<AnimationClip>("Animation");
 	//1. Animator
@@ -413,23 +413,25 @@ RegisterBuiltinTypes();
 	RegisterUnityClass<Collider>("Physics");
 	//66. MeshCollider
 	RegisterUnityClass<MeshCollider>("Physics");
-	//67. PhysicsManager
+	//67. PhysicMaterial
+	RegisterUnityClass<PhysicMaterial>("Physics");
+	//68. PhysicsManager
 	RegisterUnityClass<PhysicsManager>("Physics");
-	//68. Rigidbody
+	//69. Rigidbody
 	RegisterUnityClass<Rigidbody>("Physics");
-	//69. Collider2D
+	//70. Collider2D
 	RegisterUnityClass<Collider2D>("Physics2D");
-	//70. Physics2DSettings
+	//71. Physics2DSettings
 	RegisterUnityClass<Physics2DSettings>("Physics2D");
-	//71. Rigidbody2D
+	//72. Rigidbody2D
 	RegisterUnityClass<Rigidbody2D>("Physics2D");
-	//72. TextRendering::Font
+	//73. TextRendering::Font
 	RegisterUnityClass<TextRendering::Font>("TextRendering");
-	//73. UI::Canvas
+	//74. UI::Canvas
 	RegisterUnityClass<UI::Canvas>("UI");
-	//74. UI::CanvasGroup
+	//75. UI::CanvasGroup
 	RegisterUnityClass<UI::CanvasGroup>("UI");
-	//75. UI::CanvasRenderer
+	//76. UI::CanvasRenderer
 	RegisterUnityClass<UI::CanvasRenderer>("UI");
 
 }

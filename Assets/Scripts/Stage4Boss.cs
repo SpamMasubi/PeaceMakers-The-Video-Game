@@ -29,7 +29,7 @@ public class Stage4Boss : Enemy
 
     void SpecialAttack()
     {
-        if (!isDead && comboCount == 0)
+        if (!isDead)
         {
             anim.SetTrigger("Special");
             PlayBoss(specialAttackSound);
@@ -79,6 +79,7 @@ public class Stage4Boss : Enemy
         Stage3Boss.winLevel = false;
         bossDefeated = false;
         Destroy(FindObjectOfType<UIManager>().gameObject);
+        Destroy(FindObjectOfType<MusicController>().gameObject);
     }
 
     public void PlayBoss(AudioClip clip)

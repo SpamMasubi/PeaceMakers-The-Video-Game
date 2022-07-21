@@ -55,6 +55,7 @@ public class BreakableObject : MonoBehaviour
         {
             isBreak = true;
             anim.SetBool("Break", true);
+            GetComponent<BoxCollider>().enabled = false;
             if (!isRight)
             {
                 rb.AddRelativeForce(new Vector3(300, 500, 0), ForceMode.Impulse);
